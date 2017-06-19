@@ -3,5 +3,5 @@
 ## Ejercicios
 
 
-NODEJS  
-![](./imgs/nodejs.png)<!-- .element height="50px" width="50pxs" -->
+### ![](./imgs/nodejs.png) NODEJS 
+
