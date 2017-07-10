@@ -3,5 +3,9 @@
 ## Ejercicios
 
 
+<<<<<<< Updated upstream
 ### ![](./imgs/nodejs.png) NODEJS 
 s
+=======
+![](./imgs/nodejs.png) NODEJS
+>>>>>>> Stashed changes
