@@ -13,7 +13,6 @@ Crear un proyecto base API REST en el cual se iran integrando diferentes funcion
 
 En el [README](https://github.com/isortegah/apirest-full) del proyecto se dispone de mayor información.
 
-Aplicación 
 ## Ejercicios
 
 ![](./imgs/nodejs.png)
