@@ -49,6 +49,6 @@ El utilizar Docker beneficia también en la etapa de pruebas, estod debido a que
 
 * Objetivo
 
-En este proyecto se al macenan los archivos `Dockerfile` utilizados para crear las imagenes bases que se implementaran en los distintos proyectos que utilizan `java`, `nodejs` , `scala`, o la generación de imagenes para la ejecución de `selenium` por mencinar algo.
+En este proyecto se al macenan los archivos `Dockerfile` utilizados para crear las imagenes bases que se implementaran en los distintos proyectos que utilizan `java`, `nodejs` , `scala`, o la generación de imagenes para la ejecución de `selenium` por mencionar algo.
 
 En el [README](https://github.com/isortegah/projects-and-docker/blob/master/README.md) del proyecto se dispone de mayor información.
