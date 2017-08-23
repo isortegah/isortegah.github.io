@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
 }
-ol, ul {
+ol, ul , li{
   list-style: none;
 }
 blockquote, q {
@@ -187,13 +187,13 @@ blockquote {
 
 ul li {
   list-style-position: inside;
-  list-style: disc;
+  list-style: none;
   padding-left: 20px;
 }
 
 ol li {
   list-style-position: inside;
-  list-style: decimal;
+  list-style: none;
   padding-left: 3px;
 }
 
