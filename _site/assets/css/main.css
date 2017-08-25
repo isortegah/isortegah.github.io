@@ -27,6 +27,7 @@ time, mark, audio, video {
  * Basic styling
  */
 body {
+  line-height: 1.5;
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfd;
@@ -35,7 +36,8 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  line-height: 1.2;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -82,18 +84,22 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #d5000d;
+  font-weight: bold;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #828282; }
   a:hover {
     color: #111;
-    text-decoration: underline; }
+    text-decoration: underline; 
+  }
   .social-media-list a:hover {
     text-decoration: none; }
     .social-media-list a:hover .username {
       text-decoration: underline; }
-
+.social-media-list a:hover {
+  font-size: 18px;
+}
 /**
  * Blockquotes
  */
@@ -162,7 +168,7 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
-.social-media-list .fa {
+.social-media-list .icon {
   padding-right: 5px; }
 .social-media-list li + li {
   padding-top: 5px; }

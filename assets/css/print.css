@@ -4,9 +4,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
-  line-height: 1;
-}
+
 ol, ul , li{
   list-style: none;
 }
@@ -21,17 +19,6 @@ q:before, q:after {
 table {
   border-spacing: 0;
   border-collapse: collapse;
-}
-body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 13px;
-  line-height: 1.5;
-  color: #000;
-}
-
-a {
-  font-weight: bold;
-  color: #d5000d;
 }
 
 header {
@@ -191,9 +178,7 @@ footer {
   color: #aaa;
 }
 
-footer a {
-  color: #666;
-}
+
 
 /* MISC */
 .clearfix:after {
