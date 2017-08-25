@@ -207,6 +207,9 @@ pre {
     color: #111;
     line-height: 2.5; 
   }
+  .site-nav .page-link:hover {
+    color:#d5000d;
+  }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
@@ -300,6 +303,10 @@ pre {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
+
+.rss-subscribe {
+  padding-top: 5px;
+}
 /**
  * Page content
  */

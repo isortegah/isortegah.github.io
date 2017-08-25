@@ -16,7 +16,7 @@
 title: ISORTEGAH
 email: isortegah@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Pagina personal de Ivan Sebastian Ortega HUixtlacatl, aqui podran encontrar
+  Pagina personal de Ivan Sebastian Ortega Huixtlacatl, aqui podran encontrar
   información sobre mi y sobre los proyectos personales que me encuentro realizando.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://isortegah.me" # the base hostname & protocol for your site, e.g. http://example.com
