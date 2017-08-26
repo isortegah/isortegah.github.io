@@ -17,7 +17,7 @@ site.lang: es-mx
 title: ISORTEGAH
 email: isortegah@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Sobre Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por
+  Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por
   el Aseguramiento de la Calidad del Sowtware, la Automatización de Pruebas y
   el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
 baseurl: "" # the subpath of your site, e.g. /blog
