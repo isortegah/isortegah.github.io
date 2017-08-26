@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Sandbox
+permalink: /sandbox/
 ---
 
 [Mis Repositorios](https://github.com/isortegah?tab=repositories)
