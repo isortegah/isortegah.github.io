@@ -12,3 +12,7 @@ https://www.ruby-lang.org/es/downloads/
 Deploy github
 https://jekyllrb.com/docs/github-pages/
 https://github.com/github/pages-gem
+
+
+
+https://github.com/jekyll/minima
