@@ -26,11 +26,6 @@ github_username: isortegah
 linkedin_username: isortegah
 stack_username: isortegah
 facebook_page: qa4software
-header_pages:
-  - sandbox.html
-  - demos.html
-  - blog.html
-  - about.html
 # Build settings
 markdown: kramdown
 theme: minima
