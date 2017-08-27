@@ -1,0 +1,54 @@
+.principios-col-wrapper {
+  font-size: 15px;
+  color: #111;
+  margin-left: -15px;
+}
+
+.principios-col {
+  float: left;
+  margin-bottom: 15px;
+  padding-left: 5px; }
+
+.principios-col-1 {
+  width: -webkit-calc(22% - (30px / 2));
+  width: calc(22% - (30px / 2)); }
+
+.principios-col-2 {
+  width: -webkit-calc(20% - (30px / 2));
+  width: calc(20% - (30px / 2)); }
+
+.principios-col-3 {
+  width: -webkit-calc(20% - (30px / 2));
+  width: calc(20% - (30px / 2)); }
+
+@media screen and (max-width: 800px) {
+  .principios-col-1,
+  .principios-col-2 {
+    width: -webkit-calc(50% - (30px / 2));
+    width: calc(50% - (30px / 2)); }
+
+  .principios-col-3 {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2)); } }
+@media screen and (max-width: 600px) {
+  .principios-col {
+    float: none;
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2)); } }
+
+/**
+ * Lists
+ */
+.principios-col ul, ol {
+  margin-left: 20px; 
+  list-style-position: inside;
+  list-style: none;
+}
+
+.principios-col li > ul,
+.principios-col li > ol {
+  margin-bottom: 0; }
+
+.principios-col .fa {
+    color: #d5000d;
+}

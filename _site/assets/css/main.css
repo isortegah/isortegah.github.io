@@ -68,7 +68,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 30px; }
+  margin-left: 5px; }
 
 li > ul,
 li > ol {
@@ -307,6 +307,7 @@ pre {
 .rss-subscribe {
   padding-top: 5px;
 }
+
 /**
  * Page content
  */
