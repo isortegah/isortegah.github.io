@@ -105,5 +105,11 @@ Mi vida personal y laboral se rige por:
 <div class = "aboutme">
 	Actualmente me desempeño como <a href="/about/qaLeadTeam">Líder de Equipo QA</a>.
 </div>
+<div class="title-seccion-about">
+	<a href="/about/whyQa">¿Porque ser QA?</a>
+</div>
+<div class = "aboutme">
+	.
+</div>
 </div>
 
