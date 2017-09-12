@@ -109,7 +109,21 @@ Mi vida personal y laboral se rige por:
 	<a href="/about/whyQa">¿Porque ser QA?</a>
 </div>
 <div class = "aboutme">
-	.
+Ser QA no sólo significa llevar a cabo el testing de Software, actualmente quien pertenece a esta área debe realizar más actividades y con gran importancia dentro del ciclo de vida del desarrollo de Software.
+<br><br>
+Se ha convertido en una área con gran relevancia, totalmente independiente a desarrollo, como en bastantes empresas se venía manejando, o por lo menos donde existía una persona( que no fuera desarrollador), que apoyaba a estos en las pruebas.
+<br><br>
+Mi experiencia profesional, me ha permitido laboral en las áreas de mi interes que son: PM y Desarrollo. En el área de PM como experto de dominio del o los productos, permite la participación en la toma de decisiones de la planeación de tareas y estimación de tiempos de entrega, proporcionando información al PM sobre los avances reales del producto, verificación de User Stories, que cumplan con un A.C y D.o.D. medible y alcanzable y validación de su impacto en el producto y en ocasiones apoyando en el levantamiento de requerimientos con el cliente y la generación de las User Stories dando importancia la experiencia del usuario, esto por mencionar las más relevantes.
+<br><br>
+Puede ser contradictorio el participar en el área de desarrollo siendo un QA, pero esa frontera ha dejado de existir para nosotros y para ellos, en desarrollo he participado corrigiendo los errores que se presentaron durante la validación de la funcionalidad, han sido desde simples correcciones de texto o estilos CSS hasta cambios en la lógica de negocio o consultas a Base de Datos por mencionar algunas tareas. Además he invertido bastante tiempo en el desarrollo de mis propias herramientas para la generación de datos de pruebas y ejecución automática de scripts de pruebas. En esta última actividad me ha permitido además incursionar en el área de DEVOPS, por la necesidad de realizar el despliegue de mis herramientas para que estén disponibles en la WEB, y que sean accesibles desde donde quiera que me encuentre.
+<br><br>
+Una de las metas a alcanzar es la categoría de QA Fullstack, existen distintas definiciones para este rol que se encuentra en continua integración de tareas y responsabilidades dependiendo del rol de la persona que lo defina. Lo que puedo comentar es que alguien que cumpla con este rol debe tener los conocimientos sólidos para desempeñar tareas propias del área de PM, Desarrollo, Devops,  Base de Datos e incluso la cada vez más demandada área de Data Science. Todo lo anterior para tener una activa y eficaz participación en el ciclo de vida del desarrollo de Software dando certeza de la calidad del mismo.
+<br><br>
+Algo interesante que he estado observando, es la participación muy activa de desarrolladores en la fabricación de Frameworks y librerías que les facilitan la automatización de pruebas unitarias e incluso pruebas e2e, para sus desarrollos porque se han dado cuenta de la importancia de tener herramientas que les permitan integrar en su proceso de desarrollo, las pruebas que garanticen que no existan errores en su desarrollo.
+<br><br>
+Lo anterior brinda gran ayuda a los QA para llevar a cabo la automatización de pruebas, pero son pocos los que participan en la mejora de estos Frameworks  o incluso en la creación de los mismo, dándose solo a la tarea de implementarlos, esto a mi consideración debe cambiar y debemos ser activos en su desarrollo.
+<br><br>
+Por lo anterior es que me encuentro en el área de QA trabajando en lo que me gusta.
 </div>
 </div>
 
