@@ -7,6 +7,8 @@ permalink: /about/
 <div class = "about-page">
 	<div class = "aboutme">
 		Soy Iván Sebastián Ortega Huixtlcatl, Ingeniero en Computación por la Universidad Nacional Autónoma de México , egresado de la FES Aragón (2004 - 2008), condecorado con <a href="https://www.unam.mx/acerca-de-la-unam/identidad-unam/medallas">la Medalla al Mérito Universitario "Gabino Barreda"</a> generación <a href="http://www.aragon.unam.mx/unam/difusion/gaceta/ejemplares/275.pdf">2008</a>.
+		<br><br>
+		<a href="/about/cv">Currículum Vitae</a> 
 	</div>
 	<div class="title-seccion-about">
 		Misión Profesional
@@ -103,7 +105,7 @@ Mi vida personal y laboral se rige por:
 	</div>
 </div>
 <div class = "aboutme">
-	Actualmente me desempeño como <a href="/about/qaLeadTeam">Líder de Equipo QA</a>.
+	Actualmente me desempeño como <a href="/about/qaLeadTeam">Líder Técnico QA</a>.
 </div>
 <div class="title-seccion-about">
 	<a href="/about/whyQa">¿Porque ser QA?</a>
