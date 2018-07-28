@@ -4,17 +4,22 @@ title:  "BDD"
 date:   2018-07-27 13:59:12 -0500
 categories: bdd blog
 permalink: /blog/posts/bdd.html
-published: true
+published: false
 ---
-
+<link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
+<p>
 Se considera que BDD es una extensión de TDD, y veremos el porqué a continuación.
-
+</p>
+<p>
 Antes de comentar cuál sería el ciclo de creación de pruebas con BDD, debemos considerar que no solo se usa para pruebas de aceptación , sino que también puede aplicarse a nivel de pruebas unitarias, ya que no hay nada que evite el uso de BDD para complementar o incluso reemplazar TDD, Como se ve en el siguiente diagrama, los pasos a seguir son los mismos que se aplican en la metodología de TDD.
-
-![](/assets/imgs/post/HowtoWorkBDD.png)  
+</p>
+<div class="imgPost">
+<img src="/assets/imgs/post/HowtoWorkBDD.png">
+</div>
+<br>
 Para finalizar hablemos sobre cómo trabaja Cucumber, y el siguiente diagrama nos lo ejemplifica.
-
-![](/assets/imgs/post/HowtoWorkBDD-Page-2.png)  
-
+<div class="imgPost">
+<img src="/assets/imgs/post/HowtoWorkBDD-Page-2.png">
+</div><br>
 En la imagen se observan dos agrupaciones, “business facing” el cual está escrito en lenguaje natural utilizando gherkin y “technology facing” el cual se implementa mediante el lenguaje de programaciòn seleccionado y Cucumber funciona como puente de enlace entre estos dos grupos.
 
