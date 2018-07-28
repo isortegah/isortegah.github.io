@@ -4,7 +4,7 @@ title:  "Cucumber y su relevancia en el mundo Agile"
 date:   2018-07-27 13:59:12 -0500
 categories: cucumber blog
 permalink: /blog/posts/cucumber.html
-published: false
+published: true
 excerpt_separator: <!--more-->
 ---
 <link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
