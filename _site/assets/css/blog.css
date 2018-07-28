@@ -1,0 +1,22 @@
+.blog {
+    text-align: justify;
+}
+
+.blog .titlePost {
+    font-size: 22px
+}
+
+.blog ul {
+    list-style-type: none !important;
+    margin-left: -30px !important;
+}
+
+.blog{
+    margin-top: -15px;
+}
+
+.blog .datePost {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #808080;
+}

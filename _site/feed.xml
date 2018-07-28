@@ -1,30 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-29T19:51:20-05:00</updated><id>http://localhost:4000/</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
-</subtitle><entry><title type="html">POC Sikulix</title><link href="http://localhost:4000/pocs/poc-sikulix.html" rel="alternate" type="text/html" title="POC Sikulix" /><published>2018-06-28T11:59:12-05:00</published><updated>2018-06-28T11:59:12-05:00</updated><id>http://localhost:4000/pocs/poc-sikulix</id><content type="html" xml:base="http://localhost:4000/pocs/poc-sikulix.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-27T23:48:21-05:00</updated><id>http://localhost:4000/</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
+</subtitle><entry><title type="html">BDD</title><link href="http://localhost:4000/blog/posts/bdd.html" rel="alternate" type="text/html" title="BDD" /><published>2018-07-27T13:59:12-05:00</published><updated>2018-07-27T13:59:12-05:00</updated><id>http://localhost:4000/blog/posts/bdd</id><content type="html" xml:base="http://localhost:4000/blog/posts/bdd.html">&lt;p&gt;Se considera que BDD es una extensión de TDD, y veremos el porqué a continuación.&lt;/p&gt;
+
+&lt;p&gt;Antes de comentar cuál sería el ciclo de creación de pruebas con BDD, debemos considerar que no solo se usa para pruebas de aceptación , sino que también puede aplicarse a nivel de pruebas unitarias, ya que no hay nada que evite el uso de BDD para complementar o incluso reemplazar TDD, Como se ve en el siguiente diagrama, los pasos a seguir son los mismos que se aplican en la metodología de TDD.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/imgs/post/HowtoWorkBDD.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Para finalizar hablemos sobre cómo trabaja Cucumber, y el siguiente diagrama nos lo ejemplifica.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/imgs/post/HowtoWorkBDD-Page-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En la imagen se observan dos agrupaciones, “business facing” el cual está escrito en lenguaje natural utilizando gherkin y “technology facing” el cual se implementa mediante el lenguaje de programaciòn seleccionado y Cucumber funciona como puente de enlace entre estos dos grupos.&lt;/p&gt;</content><author><name></name></author><summary type="html">Se considera que BDD es una extensión de TDD, y veremos el porqué a continuación.</summary></entry><entry><title type="html">Cucumber y su relevancia en el mundo Agile</title><link href="http://localhost:4000/blog/posts/cucumber.html" rel="alternate" type="text/html" title="Cucumber y su relevancia en el mundo Agile" /><published>2018-07-27T13:59:12-05:00</published><updated>2018-07-27T13:59:12-05:00</updated><id>http://localhost:4000/blog/posts/cucumber</id><content type="html" xml:base="http://localhost:4000/blog/posts/cucumber.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+
+&lt;div class=&quot;post-page&quot;&gt;
+&lt;div class=&quot;p&quot;&gt;
+Cucumber es una herramienta que nos permite concebir y escribir pruebas para que cualquier persona pueda comprender para qué son realizadas y qué hacen esas pruebas, independientemente de que esa persona posea o no conocimientos técnicos de desarrollo; lo anterior es logrado a través del framework BDD(Behavior Driven Development).
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;p&quot;&gt;
+Las ventajas de usar Cucumber sobre otras herramientas que brindan soporte a BDD son:
+&lt;/div&gt;&lt;br /&gt;
+&lt;!--more--&gt;
+
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;Trabaja como un puente entre las reglas de negocio y el lenguaje técnico. Esto se lleva a cabo creando un enunciado sencillo en lenguaje natural.&lt;/li&gt;
+
+&lt;li&gt;Cucumber es compatible con diferentes lenguajes de programación como Java, .net, Ruby, entre otros.&lt;/li&gt;
+&lt;li&gt;El código de prueba es redactado en lenguaje natural, por lo tanto, puede ser escrito sin ningún conocimiento técnico sobre el lenguaje de programación seleccionado para la construcción del sistema, permitiendo la participación de no programadores.&lt;/li&gt;
+&lt;li&gt;Sirve para la ejecución de pruebas end to end.&lt;/li&gt;
+&lt;li&gt;Dada la simplicidad de su arquitectura al momento de crear los scripts, Cucumber permite la reutilización de código.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;p&quot;&gt;
+Dentro de sus principales beneficios están:
+&lt;/div&gt;&lt;br /&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;
+Es útil para involucrar a las partes comerciales interesadas que no pueden leer fácilmente código.&lt;/li&gt;
+&lt;li&gt;Cucumber se enfoca en la experiencia del usuario final.&lt;/li&gt;
+&lt;li&gt;Configuración y ejecución rápida y fácil.&lt;/li&gt;
+&lt;li&gt;Al ser una herramienta eficiente para la realización de pruebas, ha tenido gran aceptación y apoyo de la comunidad.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;p&quot;&gt;
+Hablemos un poco de su relevancia en la metodología de desarrollo “Agile”. 
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;p&quot;&gt;
+Como sabemos “Agile” lo podemos definir como un conjunto de metodologías para el desarrollo de proyectos en los cuales requerimos de rapidez y flexibilidad para adaptarse a condiciones cambiantes como lo son los requerimientos del cliente o modificaciones en el equipo de trabajo. Esto se logra partiendo el proyecto en entregables de razonable tamaño, los cuales tienen que completarse y entregarse en pocas semanas.
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;p&quot;&gt;
+En el mundo del desarrollo de software existe la tendencia de que se colabore en equipos de varias personas que trabajan de forma conjunta, por lo que la comunicación de alta calidad es fundamental para su éxito. Una buena comunicación no consiste sólo en describir las  ideas a otros de forma eficaz y eficiente; también se necesita solicitar comentarios para asegurarse de que ha sido entendido correctamente. Esta es la razón por la que los equipos de software de “Agile” han aprendido a trabajar en pequeños incrementos, utilizando el software que se construye de manera gradual a medida que los comentarios les dicen a las partes interesadas: &quot;¿Es esto lo que quieres decir?&quot;
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;p&quot;&gt;
+Un pequeño desvío en la comunicación dentro del equipo y puede generarse tiempo de desarrollo perdido, por lo que necesitamos un tipo de filtro para proteger nuestra base de código de posibles malentendidos. Aquí es donde Cucumber y BDD hacen su magia.
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;p&gt;En el próximo artículo hablaré sobre &lt;a href=&quot;/blog/posts/bdd.html&quot;&gt;BDD&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Cucumber es una herramienta que nos permite concebir y escribir pruebas para que cualquier persona pueda comprender para qué son realizadas y qué hacen esas pruebas, independientemente de que esa persona posea o no conocimientos técnicos de desarrollo; lo anterior es logrado a través del framework BDD(Behavior Driven Development). Las ventajas de usar Cucumber sobre otras herramientas que brindan soporte a BDD son:</summary></entry><entry><title type="html">POC Sikulix</title><link href="http://localhost:4000/pocs/poc-sikulix.html" rel="alternate" type="text/html" title="POC Sikulix" /><published>2018-06-28T11:59:12-05:00</published><updated>2018-06-28T11:59:12-05:00</updated><id>http://localhost:4000/pocs/poc-sikulix</id><content type="html" xml:base="http://localhost:4000/pocs/poc-sikulix.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;div class=&quot;post-page&quot;&gt;
 	&lt;div class=&quot;p&quot;&gt;
 &lt;a href=&quot;http://sikulix.com&quot;&gt;Sikulix&lt;/a&gt; es una herramienta que nos permite automatizar la ejecución de acciones (click, tipeado, ejecución de programas, drag and drop) sobre todo lo que vemos en la pantalla de la computadora. Es de gran ayuda cuando no tenemos acceso al DOM de la página Web o si queremos automatizar tareas sobre aplicaciones que no proporcionan otra interfaz que permita la ejecución automática de tareas sobre ellas. En su &lt;a href=&quot;http://sikulix.com&quot;&gt;Sitio Oficial&lt;/a&gt; podrán encontra mas información acerca de sus características.
     &lt;/div&gt;
-    
-&lt;br /&gt; 
+&lt;!--more--&gt;
+&lt;br /&gt;
 &lt;div class=&quot;p&quot;&gt;Para la automatización de pruebas es de bastante utilidad esta herrameinta, y la podemos combinar con Selenium, esto cuando queremos validar por ejemplo que la posición en la pantalla de algun elemento no haya cambiado, realizar pruebas de regresión sobre el responsive de nuestra página. En mi experiencia personal se presento el caso de que se servia una plataforma a través de una herramienta de Symantec llamada &lt;a href=&quot;https://www.symantec.com/products/web-isolation&quot;&gt;&quot;Fireglass&quot;&lt;/a&gt;, la cual oculta el DOM de la página, por lo que Selenium dejo de ser una opción para automatizar las pruebas que requeria realizar.&lt;/div&gt;
 &lt;br /&gt;
 &lt;div class=&quot;p&quot;&gt;
     En el repo &lt;a href=&quot;https://github.com/isortegah/poc_sikulix&quot; target=&quot;_blank&quot; class=&quot;linkGithub&quot;&gt;poc_sikulix&lt;/a&gt; que se encuentra en mi cuenta de Github, realice una pequeña prueba de concepto, que muestra la ejecución de una prueba sencilla con sikulix, pero implementando TestNG en conjunto con Cucumber y su ejecución será lanzada a través de MAVEN.
     &lt;br /&gt;&lt;br /&gt;
     Cualquier aportación es bienvenida y espero su feedback en cualquiera de mis redes sociales.
+
+    
 &lt;/div&gt;
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Sikulix es una herramienta que nos permite automatizar la ejecución de acciones (click, tipeado, ejecución de programas, drag and drop) sobre todo lo que vemos en la pantalla de la computadora. Es de gran ayuda cuando no tenemos acceso al DOM de la página Web o si queremos automatizar tareas sobre aplicaciones que no proporcionan otra interfaz que permita la ejecución automática de tareas sobre ellas. En su Sitio Oficial podrán encontra mas información acerca de sus características. Para la automatización de pruebas es de bastante utilidad esta herrameinta, y la podemos combinar con Selenium, esto cuando queremos validar por ejemplo que la posición en la pantalla de algun elemento no haya cambiado, realizar pruebas de regresión sobre el responsive de nuestra página. En mi experiencia personal se presento el caso de que se servia una plataforma a través de una herramienta de Symantec llamada &quot;Fireglass&quot;, la cual oculta el DOM de la página, por lo que Selenium dejo de ser una opción para automatizar las pruebas que requeria realizar. En el repo poc_sikulix que se encuentra en mi cuenta de Github, realice una pequeña prueba de concepto, que muestra la ejecución de una prueba sencilla con sikulix, pero implementando TestNG en conjunto con Cucumber y su ejecución será lanzada a través de MAVEN. Cualquier aportación es bienvenida y espero su feedback en cualquiera de mis redes sociales.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/08/22/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-08-22T18:59:12-05:00</published><updated>2017-08-22T18:59:12-05:00</updated><id>http://localhost:4000/jekyll/update/2017/08/22/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/08/22/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;/blog/posts/cucumber.html&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Sikulix es una herramienta que nos permite automatizar la ejecución de acciones (click, tipeado, ejecución de programas, drag and drop) sobre todo lo que vemos en la pantalla de la computadora. Es de gran ayuda cuando no tenemos acceso al DOM de la página Web o si queremos automatizar tareas sobre aplicaciones que no proporcionan otra interfaz que permita la ejecución automática de tareas sobre ellas. En su Sitio Oficial podrán encontra mas información acerca de sus características.</summary></entry></feed>
