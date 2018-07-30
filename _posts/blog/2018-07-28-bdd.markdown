@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BDD"
-date:   2018-07-27 13:59:12 -0500
+date:   2018-07-29 13:59:12 -0500
 categories: bdd blog
 permalink: /blog/posts/bdd.html
 published: true
