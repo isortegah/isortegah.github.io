@@ -20,3 +20,13 @@
     font-size: 15px;
     color: #808080;
 }
+
+li.liBlog {
+    border-top: 1.5px solid #808080;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.seccMas {
+    text-align: right;
+}

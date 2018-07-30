@@ -12,6 +12,9 @@ excerpt_separator: <!--more-->
 <div class = "p">
 Cucumber es una herramienta que nos permite concebir y escribir pruebas para que cualquier persona pueda comprender para qué son realizadas y qué hacen esas pruebas, independientemente de que esa persona posea o no conocimientos técnicos de desarrollo; lo anterior es logrado a través del framework BDD(Behavior Driven Development).
 </div><br>
+<div class="p">
+En el siguiente link <a href="https://github.com/isortegah/archetype-cucumber-testng" class="linkGithub">"archetype-cucumber-testng"</a> se encuentra disponible un Arquetipo que nos permite tener en cuestión de segundos, un proyecto Maven que nos permite iniciar con la automatización de pruebas.
+</div><br>
 <div class = "p">
 Las ventajas de usar Cucumber sobre otras herramientas que brindan soporte a BDD son:
 </div><br>
