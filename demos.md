@@ -16,3 +16,13 @@ permalink: /demos/
 <a href="http://sikulix.com">Sitio Oficial</a>
 
 </div>
+<br>
+### [POC Lettuce](/pocs/poc-lettuce.html)
+<div class = "demo-page">
+	<div class = "p">
+<a href="http://lettuce.it">Lettuce</a> es una herramienta que nos permite implementar BDD (Behavior Driven Development). Puede ejecutar archivos en formato de texto plano que contengan pruebas automáticas descritas en forma funcional para proyectos de Python, tal como lo hace Cucumber en Java o Ruby. 
+    </div>
+<br> 
+<a href="http://lettuce.it">Sitio Oficial</a>
+
+</div>

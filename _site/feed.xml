@@ -1,5 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-29T19:17:05-05:00</updated><id>http://localhost:4000/</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
-</subtitle><entry><title type="html">BDD</title><link href="http://localhost:4000/blog/posts/bdd.html" rel="alternate" type="text/html" title="BDD" /><published>2018-07-29T13:59:12-05:00</published><updated>2018-07-29T13:59:12-05:00</updated><id>http://localhost:4000/blog/posts/bdd</id><content type="html" xml:base="http://localhost:4000/blog/posts/bdd.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-20T19:25:09-05:00</updated><id>http://localhost:4000/</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
+</subtitle><entry><title type="html">POC Lettuce</title><link href="http://localhost:4000/pocs/poc-lettuce.html" rel="alternate" type="text/html" title="POC Lettuce" /><published>2018-10-20T18:55:12-05:00</published><updated>2018-10-20T18:55:12-05:00</updated><id>http://localhost:4000/pocs/poc-lettuce</id><content type="html" xml:base="http://localhost:4000/pocs/poc-lettuce.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+
+&lt;div class=&quot;post-page&quot;&gt;
+	&lt;div class=&quot;p&quot;&gt;
+&lt;a href=&quot;http://lettuce.it/tutorial/simple.html#tutorial-simple&quot;&gt;Lettuce&lt;/a&gt; es una herramienta que nos permite implementar BDD (Behavior Driven Development). Puede ejecutar archivos en formato de texto plano que contengan pruebas automáticas descritas en forma funcional para proyectos de Python, tal como lo hace Cucumber en Java o Ruby.
+
+
+    &lt;/div&gt;
+&lt;!--more--&gt;
+&lt;br /&gt;
+&lt;div class=&quot;p&quot;&gt;Esto ocasiona que el proceso de desarrollo y pruebas sea realmente fácil, escalable, legible y, lo que es mejor, le permite a alguien que no programa describir el comportamiento de un determinado sistema, sin imaginar que esas descripciones probarán automáticamente el sistema durante su desarrollo.&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class=&quot;p&quot;&gt;
+    En el repo &lt;a href=&quot;https://github.com/isortegahlabs/poc_lettuce&quot; target=&quot;_blank&quot; class=&quot;linkGithub&quot;&gt;poc_lettuce&lt;/a&gt; que se encuentra en mi cuenta de Github, realice una pequeña implementación, que muestra la ejecución de una prueba sencilla con lettuce.
+    &lt;br /&gt;&lt;br /&gt;
+    Cualquier aportación es bienvenida y espero su feedback en cualquiera de mis redes sociales.
+
+    
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Lettuce es una herramienta que nos permite implementar BDD (Behavior Driven Development). Puede ejecutar archivos en formato de texto plano que contengan pruebas automáticas descritas en forma funcional para proyectos de Python, tal como lo hace Cucumber en Java o Ruby.</summary></entry><entry><title type="html">BDD</title><link href="http://localhost:4000/blog/posts/bdd.html" rel="alternate" type="text/html" title="BDD" /><published>2018-07-29T13:59:12-05:00</published><updated>2018-07-29T13:59:12-05:00</updated><id>http://localhost:4000/blog/posts/bdd</id><content type="html" xml:base="http://localhost:4000/blog/posts/bdd.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;p&gt;
 Se considera que BDD es una extensión de TDD, y veremos el porqué a continuación.
