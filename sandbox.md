@@ -5,10 +5,9 @@ permalink: /sandbox/
 ---
 
 [Mis Repositorios](https://github.com/isortegah?tab=repositories)
-
 ## Proyectos
 ![](/assets/imgs/java.png) 
-### [ApiRESTFul](http://isortegah.com/apirest-ful)
+### [ApiREST-Dropwizard](http://isortegah.me/apirest-dropwizard)
 * Preámbulo  
 
 En el desarrollo de aplicaciones Web la implementación de APIs
@@ -16,17 +15,16 @@ REST (Representational State Transfer) se ha vuelto muy importante, ya que no ex
 
 * Objetivo  
 
-Crear un proyecto base API REST en el cual se iran integrando diferentes funcionalides como práctica o ejercicio de aprendizaje. Lo aprendido e implementado sirven como base para otro proyecto que permitira el consumo de servicios generadores de datos aleatorios y ejecución de determinadas pruebas, todo esto para cumplir con un objetivo mayor.
+Crear un proyecto base API REST en el cual se iran integrando diferentes funcionalides como práctica o ejercicio de 
+aprendizaje. Lo aprendido e implementado sirven como base para otro proyecto que permitira el consumo de servicios 
+generadores de datos aleatorios y ejecución de determinadas pruebas, todo esto para cumplir con un objetivo mayor.
 
-En el [README](http://isortegah.com/apirest-ful) del proyecto se dispone de mayor información.
+En el [README](http://isortegah.me/apirest-dropwizard) del proyecto se dispone de mayor información.
 
 - - -
 
-
-
-![](/assets/imgs/nodejs.png)
-
 ## Proyectos
+![](/assets/imgs/nodejs.png)
 
 ### [ApiRESTFul Nodejs](http://isortegah.me/apirest-ful-nodejs/)  
 
