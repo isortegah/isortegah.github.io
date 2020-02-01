@@ -1,5 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-31T20:46:15-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
-</subtitle><entry><title type="html">POC Lettuce</title><link href="http://localhost:4000/pocs/poc-lettuce.html" rel="alternate" type="text/html" title="POC Lettuce" /><published>2018-10-20T18:55:12-05:00</published><updated>2018-10-20T18:55:12-05:00</updated><id>http://localhost:4000/pocs/poc-lettuce</id><content type="html" xml:base="http://localhost:4000/pocs/poc-lettuce.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-01T17:15:02-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
+</subtitle><entry><title type="html">Instalación python 3.6 en Ubuntu 19.10 Eoan Ermine</title><link href="http://localhost:4000/blog/posts/python-ubuntu.html" rel="alternate" type="text/html" title="Instalación python 3.6 en Ubuntu 19.10 Eoan Ermine" /><published>2020-02-01T12:59:12-06:00</published><updated>2020-02-01T12:59:12-06:00</updated><id>http://localhost:4000/blog/posts/python36</id><content type="html" xml:base="http://localhost:4000/blog/posts/python-ubuntu.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+
+&lt;div class=&quot;post-page&quot;&gt;
+&lt;div class=&quot;p&quot;&gt;
+
+En la versión de Ubuntu 19.10 Eoan Ermine vien por defecto la verisón 3.7 y 3.8 de Python, por tema de proyecto, requiero usar la versión 3.6, por lo que busque hacer la instalación mediante la opción mas usada (al menos lo que arrojo la busqueda).
+&lt;!--more--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;p&quot;&gt;
+Segui las instrucciones que encontre en &lt;a href=&quot;http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/&quot;&gt;UbuntuHandbook&lt;/a&gt; pero en la instrucción:
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;terminal console-container&quot;&gt;
+   $ sudo add-apt-repository ppa:jonathonf/python-3.6
+&lt;/div&gt;
+&lt;br /&gt;&lt;br /&gt;
+Se presente un error de acceso denegado al recurso. Revisando el problema, me encontre el siguiente mensaje en la página del desarrollador que provee el PPA (Personal Package Archive).
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imgPost&quot;&gt;
+&lt;img src=&quot;/assets/imgs/post/python36.png&quot; /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+El desarrollador nos comenta que restringio el acceso a los artefactos. Así que busque una alternativa, la primera que recorde y decidí probar fue compilar el paquete y funciono. Los pasos a realizar son:
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;p&quot;&gt;
+    &lt;ul class=&quot;list&quot;&gt;
+    &lt;li&gt;Descargar el paquete de &lt;a href=&quot;&amp;lt;https://www.python.org/downloads/release/python-360/&quot;&gt;Python 3.6&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Descomprimir el paquete&lt;/li&gt;
+    &lt;li&gt;Activar el soporte a &lt;a href=&quot;https://techglimpse.com/install-python-openssl-support-tutorial/&quot;&gt;Openssl&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Compilar el paquete con el siguiente comando&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class=&quot;terminal console-container&quot;&gt;
+        $ ./configure --enable-loadable-sqlite-extensions &amp;amp;&amp;amp; make &amp;amp;&amp;amp; sudo make install
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;p&quot;&gt;
+    En el caso de que se requiera mantener una alternancia en el uso de las versiones de Python, recordemos que podemos hechar mano del comando &quot;update-alternatives&quot;.
+
+    &lt;br /&gt;&lt;br /&gt;
+    Esto funcionó para mí, puede ser que para algunas otras funcionalidades de Python requieran agregar parametros adicionales al compilar el paquete.
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">En la versión de Ubuntu 19.10 Eoan Ermine vien por defecto la verisón 3.7 y 3.8 de Python, por tema de proyecto, requiero usar la versión 3.6, por lo que busque hacer la instalación mediante la opción mas usada (al menos lo que arrojo la busqueda).</summary></entry><entry><title type="html">POC Lettuce</title><link href="http://localhost:4000/pocs/poc-lettuce.html" rel="alternate" type="text/html" title="POC Lettuce" /><published>2018-10-20T18:55:12-05:00</published><updated>2018-10-20T18:55:12-05:00</updated><id>http://localhost:4000/pocs/poc-lettuce</id><content type="html" xml:base="http://localhost:4000/pocs/poc-lettuce.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;div class=&quot;post-page&quot;&gt;
 	&lt;div class=&quot;p&quot;&gt;
@@ -21,7 +62,7 @@
 
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;a href=&quot;&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Lettuce es una herramienta que nos permite implementar BDD (Behavior Driven Development). Puede ejecutar archivos en formato de texto plano que contengan pruebas automáticas descritas en forma funcional para proyectos de Python, tal como lo hace Cucumber en Java o Ruby.</summary></entry><entry><title type="html">Cucumber y su relevancia en el mundo Agile</title><link href="http://localhost:4000/blog/posts/cucumber.html" rel="alternate" type="text/html" title="Cucumber y su relevancia en el mundo Agile" /><published>2018-07-29T13:59:12-05:00</published><updated>2018-07-29T13:59:12-05:00</updated><id>http://localhost:4000/blog/posts/cucumber</id><content type="html" xml:base="http://localhost:4000/blog/posts/cucumber.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+&lt;a href=&quot;/blog/posts/python-ubuntu.html&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Lettuce es una herramienta que nos permite implementar BDD (Behavior Driven Development). Puede ejecutar archivos en formato de texto plano que contengan pruebas automáticas descritas en forma funcional para proyectos de Python, tal como lo hace Cucumber en Java o Ruby.</summary></entry><entry><title type="html">Cucumber y su relevancia en el mundo Agile</title><link href="http://localhost:4000/blog/posts/cucumber.html" rel="alternate" type="text/html" title="Cucumber y su relevancia en el mundo Agile" /><published>2018-07-29T13:59:12-05:00</published><updated>2018-07-29T13:59:12-05:00</updated><id>http://localhost:4000/blog/posts/cucumber</id><content type="html" xml:base="http://localhost:4000/blog/posts/cucumber.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;div class=&quot;post-page&quot;&gt;
 &lt;div class=&quot;p&quot;&gt;
