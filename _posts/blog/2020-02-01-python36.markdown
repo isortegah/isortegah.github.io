@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Instalación python 3.6 en Ubuntu 19.10 Eoan Ermine"
+date:   2020-02-01 13:59:12 -0500
+categories: python ubuntu blog
+permalink: /blog/posts/python-ubuntu.html
+published: true
+description: "Como instalar Python 3.6 en Ubuntu 19.10 Eoan Ermine"
+excerpt_separator: <!--more-->
+---
+<link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
+<div class = "post-page">
+<div class = "p">
+
+En la versión de Ubuntu 19.10 Eoan Ermine vien por defecto la verisón 3.7 y 3.8 de Python, por tema de proyecto, requiero usar la versión 3.6, por lo que busque hacer la instalación mediante la opción mas usada (al menos lo que arrojo la busqueda).
+<!--more-->
+</div>
+<div class="p">
+Segui las instrucciones que encontre en <a href="http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/">UbuntuHandbook</a> pero en la instrucción:
+<br><br>
+<div class="terminal console-container">
+   $ sudo add-apt-repository ppa:jonathonf/python-3.6
+</div>
+<br><br>
+Se presente un error de acceso denegado al recurso. Revisando el problema, me encontre el siguiente mensaje en la página del desarrollador que provee el PPA (Personal Package Archive).
+<br><br>
+<div class="imgPost">
+<img src="/assets/imgs/post/python36.png">
+</div>
+<br>
+El desarrollador nos comenta que restringio el acceso a los artefactos. Así que busque una alternativa, la primera que recorde y decidí probar fue compilar el paquete y funciono. Los pasos a realizar son:
+</div><br>
+<div class = "p">
+    <ul class="list">
+    <li>Descargar el paquete de <a href="<https://www.python.org/downloads/release/python-360/">Python 3.6</a></li>
+    <li>Descomprimir el paquete</li>
+    <li>Activar el soporte a <a href="https://techglimpse.com/install-python-openssl-support-tutorial/">Openssl</a></li>
+    <li>Compilar el paquete con el siguiente comando</li>
+    </ul>
+    <div class="terminal console-container">
+        $ ./configure --enable-loadable-sqlite-extensions && make && sudo make install
+    </div>
+</div>
+<br><br>
+<div class="p">
+    En el caso de que se requiera mantener una alternancia en el uso de las versiones de Python, recordemos que podemos hechar mano del comando "update-alternatives".
+
+    <br><br>
+    Esto funcionó para mí, puede ser que para algunas otras funcionalidades de Python requieran agregar parametros adicionales al compilar el paquete.
+</div>

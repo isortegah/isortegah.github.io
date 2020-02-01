@@ -53,9 +53,9 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">POC Lettuce</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Instalación python 3.6 en Ubuntu 19.10 Eoan Ermine</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2018-10-20T18:55:12-05:00" itemprop="datePublished">Oct 20, 2018
+      <time class="dt-published" datetime="2020-02-01T12:59:12-06:00" itemprop="datePublished">Feb 1, 2020
       </time></p>
   </header>
 
@@ -63,28 +63,47 @@
     <link rel="stylesheet" href="/assets/css/post.css" />
 
 <div class="post-page">
-	<div class="p">
-<a href="http://lettuce.it/tutorial/simple.html#tutorial-simple">Lettuce</a> es una herramienta que nos permite implementar BDD (Behavior Driven Development). Puede ejecutar archivos en formato de texto plano que contengan pruebas automáticas descritas en forma funcional para proyectos de Python, tal como lo hace Cucumber en Java o Ruby.
-
-
-    </div>
-<!--more-->
-<br />
-<div class="p">Esto ocasiona que el proceso de desarrollo y pruebas sea realmente fácil, escalable, legible y, lo que es mejor, le permite a alguien que no programa describir el comportamiento de un determinado sistema, sin imaginar que esas descripciones probarán automáticamente el sistema durante su desarrollo.</div>
-<br />
 <div class="p">
-    En el repo <a href="https://github.com/isortegahlabs/poc_lettuce" target="_blank" class="linkGithub">poc_lettuce</a> que se encuentra en mi cuenta de Github, realice una pequeña implementación, que muestra la ejecución de una prueba sencilla con lettuce.
+
+En la versión de Ubuntu 19.10 Eoan Ermine vien por defecto la verisón 3.7 y 3.8 de Python, por tema de proyecto, requiero usar la versión 3.6, por lo que busque hacer la instalación mediante la opción mas usada (al menos lo que arrojo la busqueda).
+<!--more-->
+</div>
+<div class="p">
+Segui las instrucciones que encontre en <a href="http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/">UbuntuHandbook</a> pero en la instrucción:
+<br /><br />
+<div class="terminal console-container">
+   $ sudo add-apt-repository ppa:jonathonf/python-3.6
+</div>
+<br /><br />
+Se presente un error de acceso denegado al recurso. Revisando el problema, me encontre el siguiente mensaje en la página del desarrollador que provee el PPA (Personal Package Archive).
+<br /><br />
+<div class="imgPost">
+<img src="/assets/imgs/post/python36.png" />
+</div>
+<br />
+El desarrollador nos comenta que restringio el acceso a los artefactos. Así que busque una alternativa, la primera que recorde y decidí probar fue compilar el paquete y funciono. Los pasos a realizar son:
+</div><br />
+<div class="p">
+    <ul class="list">
+    <li>Descargar el paquete de <a href="&lt;https://www.python.org/downloads/release/python-360/">Python 3.6</a></li>
+    <li>Descomprimir el paquete</li>
+    <li>Activar el soporte a <a href="https://techglimpse.com/install-python-openssl-support-tutorial/">Openssl</a></li>
+    <li>Compilar el paquete con el siguiente comando</li>
+    </ul>
+    <div class="terminal console-container">
+        $ ./configure --enable-loadable-sqlite-extensions &amp;&amp; make &amp;&amp; sudo make install
+    </div>
+</div>
+<br /><br />
+<div class="p">
+    En el caso de que se requiera mantener una alternancia en el uso de las versiones de Python, recordemos que podemos hechar mano del comando "update-alternatives".
+
     <br /><br />
-    Cualquier aportación es bienvenida y espero su feedback en cualquiera de mis redes sociales.
-
-    
+    Esto funcionó para mí, puede ser que para algunas otras funcionalidades de Python requieran agregar parametros adicionales al compilar el paquete.
+</div>
 </div>
 
-</div>
-<p><br />
-<a href="/blog/posts/python-ubuntu.html">Siguiente</a></p>
-
-  </div><a class="u-url" href="/pocs/poc-lettuce.html" hidden></a>
+  </div><a class="u-url" href="/blog/posts/python-ubuntu.html" hidden></a>
 </article>
 
       </div>
