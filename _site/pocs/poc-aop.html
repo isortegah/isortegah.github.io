@@ -50,21 +50,17 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Blog</h1>
+    <h1 class="post-title p-name" itemprop="name headline">POC aspect-AOP-exercise</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-08-14T18:55:12-05:00" itemprop="datePublished">Aug 14, 2020
+      </time></p>
   </header>
 
-  <div class="post-content">
-    <link rel="stylesheet" href="/assets/css/blog.css" />
-
-<div class="blog">
-<ul>
-  
-    <li class="liBlog">
-      <a href="/pocs/poc-aop.html" class="titlePost">POC aspect-AOP-exercise</a>  <br /><div class="datePost">Fri, Aug 14, 20</div>
-      <link rel="stylesheet" href="/assets/css/post.css" />
+  <div class="post-content e-content" itemprop="articleBody">
+    <link rel="stylesheet" href="/assets/css/post.css" />
 
 <div class="post-page">
 	<div class="p">
@@ -73,112 +69,61 @@
 Revisando el paradigma de programación <b class="bold">"Programación Orientada a Aspectos o AOP"</b> (aspect-oriented programming) visualizo varias posibilidades de implementación dentro de un framework que permita la ejecución de pruebas automatizadas.
 <br /><br />
 Y para ello requiero realizar el ejercicio de ejecución de aspectos de una forma sencilla y así confirmar si es factible su implementación e identificar nuevos casos de implantación.
-</div></div>
- 
-      <div class="seccMas">
-      <a href="/pocs/poc-aop.html" class="more">Más ...</a>
-      </div>
-    </li>
-  
-    <li class="liBlog">
-      <a href="/blog/posts/python-ubuntu.html" class="titlePost">Instalación python 3.6 en Ubuntu 19.10 Eoan Ermine</a>  <br /><div class="datePost">Sat, Feb 01, 20</div>
-      <link rel="stylesheet" href="/assets/css/post.css" />
-
-<div class="post-page">
-<div class="p">
-
-En la versión de Ubuntu 19.10 Eoan Ermine vien por defecto la verisón 3.7 y 3.8 de Python, por tema de proyecto, requiero usar la versión 3.6, por lo que busque hacer la instalación mediante la opción mas usada (al menos lo que arrojo la busqueda).
-</div></div>
- 
-      <div class="seccMas">
-      <a href="/blog/posts/python-ubuntu.html" class="more">Más ...</a>
-      </div>
-    </li>
-  
-    <li class="liBlog">
-      <a href="/pocs/poc-lettuce.html" class="titlePost">POC Lettuce</a>  <br /><div class="datePost">Sat, Oct 20, 18</div>
-      <link rel="stylesheet" href="/assets/css/post.css" />
-
-<div class="post-page">
-	<div class="p">
-<a href="http://lettuce.it/tutorial/simple.html#tutorial-simple">Lettuce</a> es una herramienta que nos permite implementar BDD (Behavior Driven Development). Puede ejecutar archivos en formato de texto plano que contengan pruebas automáticas descritas en forma funcional para proyectos de Python, tal como lo hace Cucumber en Java o Ruby.
-
-
-    </div>
-</div>
- 
-      <div class="seccMas">
-      <a href="/pocs/poc-lettuce.html" class="more">Más ...</a>
-      </div>
-    </li>
-  
-    <li class="liBlog">
-      <a href="/blog/posts/bdd.html" class="titlePost">BDD</a>  <br /><div class="datePost">Sun, Jul 29, 18</div>
-      <link rel="stylesheet" href="/assets/css/post.css" />
-
-<p>
-Se considera que BDD es una extensión de TDD, y veremos el porqué a continuación.
-</p>
-<p>
-Antes de comentar cuál sería el ciclo de creación de pruebas con BDD, debemos considerar que no solo se usa para pruebas de aceptación , sino que también puede aplicarse a nivel de pruebas unitarias, ya que no hay nada que evite el uso de BDD para complementar o incluso reemplazar TDD, Como se ve en el siguiente diagrama, los pasos a seguir son los mismos que se aplican en la metodología de TDD.
-</p>
-<div class="imgPost">
-<img src="/assets/imgs/post/HowtoWorkBDD.png" />
-</div>
-<p><br />
-Para finalizar hablemos sobre cómo trabaja Cucumber, y el siguiente diagrama nos lo ejemplifica.</p>
-<div class="imgPost">
-<img src="/assets/imgs/post/HowtoWorkBDD-Page-2.png" />
-</div>
-<p><br />
-En la imagen se observan dos agrupaciones, “business facing” el cual está escrito en lenguaje natural utilizando gherkin y “technology facing” el cual se implementa mediante el lenguaje de programaciòn seleccionado y Cucumber funciona como puente de enlace entre estos dos grupos.</p>
- 
-      <div class="seccMas">
-      <a href="/blog/posts/bdd.html" class="more">Más ...</a>
-      </div>
-    </li>
-  
-    <li class="liBlog">
-      <a href="/blog/posts/cucumber.html" class="titlePost">Cucumber y su relevancia en el mundo Agile</a>  <br /><div class="datePost">Sun, Jul 29, 18</div>
-      <link rel="stylesheet" href="/assets/css/post.css" />
-
-<div class="post-page">
-<div class="p">
-Cucumber es una herramienta que nos permite concebir y escribir pruebas para que cualquier persona pueda comprender para qué son realizadas y qué hacen esas pruebas, independientemente de que esa persona posea o no conocimientos técnicos de desarrollo; lo anterior es logrado a través del framework BDD(Behavior Driven Development).
-</div><br />
-<div class="p">
-En el siguiente link <a href="https://github.com/isortegah/archetype-cucumber-testng" class="linkGithub">"archetype-cucumber-testng"</a> se encuentra disponible un Arquetipo que nos permite tener en cuestión de segundos, un proyecto Maven que nos permite iniciar con la automatización de pruebas.
-</div><br />
-<div class="p">
-Las ventajas de usar Cucumber sobre otras herramientas que brindan soporte a BDD son:
-</div><br />
-</div>
- 
-      <div class="seccMas">
-      <a href="/blog/posts/cucumber.html" class="more">Más ...</a>
-      </div>
-    </li>
-  
-    <li class="liBlog">
-      <a href="/pocs/poc-sikulix.html" class="titlePost">POC Sikulix</a>  <br /><div class="datePost">Thu, Jun 28, 18</div>
-      <link rel="stylesheet" href="/assets/css/post.css" />
-
-<div class="post-page">
-	<div class="p">
-<a href="http://sikulix.com">Sikulix</a> es una herramienta que nos permite automatizar la ejecución de acciones (click, tipeado, ejecución de programas, drag and drop) sobre todo lo que vemos en la pantalla de la computadora. Es de gran ayuda cuando no tenemos acceso al DOM de la página Web o si queremos automatizar tareas sobre aplicaciones que no proporcionan otra interfaz que permita la ejecución automática de tareas sobre ellas. En su <a href="http://sikulix.com">Sitio Oficial</a> podrán encontra mas información acerca de sus características.
-    </div>
-</div>
- 
-      <div class="seccMas">
-      <a href="/pocs/poc-sikulix.html" class="more">Más ...</a>
-      </div>
-    </li>
-  
+<!--more-->
+<br /><br />
+<img src="/assets/imgs/post/aj.png" />
+<br /><br />
+El punto principal de la AOP es la separación de las funcionalidades dentro de un sistema y debemos considerar:
+<br /><br />
+<ul class="list">
+<li>Tenemos las funcionalidades comunes utilizadas a lo largo del sistema.</li> 
+<li>Las funcionalidades propias de cada modelo.</li>
 </ul>
+<h3>Ejercicios</h3>
+Al momento de realizar este ejercicio encontre dos configuraciones para implementar los aspectos y se codificaron de la siguiente forma:
+<br /><br />
+<h4>Branchs</h4>
+
+<ul class="list">
+<li>
+<a href="https://github.com/isortegahlabs/aspect-AOP-exercise/tree/feature/compile-weaving">Compile-weaving:</a> Contiene la 
+configuración necesaria para realizar la ejecución de los aspectos utilizando el plugin <b class="bold">aspectj-maven-plugin</b> 
+durante la fase <b class="bold">compile</b>.     
+</li>
+<li>
+<a href="https://github.com/isortegahlabs/aspect-AOP-exercise/tree/feature/loadtime-weaving">Loadtime-weaving:</a> En esta rama 
+se presenta la configuración requerida para la ejecución de la funcionalidad de los aspectos durante la ejecución del 
+plugin <b class="bold">exec-maven-plugin</b>.  </li>
+</ul>
+En ambos ejercicios se puede generar un jar ejecutable con dependencias.
+<br /><br />
+<h4>Documentación de Referencia</h4>
+
+<ul class="list">
+<li>
+<a href="https://folderit.net/es/blog/aspect-oriented-programming-aspectj-es/">Aspect Oriented Programming – AspectJ</a> 
+</li>
+<li>
+<a href="https://livebook.manning.com/book/aspectj-in-action-second-edition/part-1">Understanding AOP and AspectJ</a>  
+</li><li>
+<a href="https://www.baeldung.com/spring-aop-pointcut-tutorial">Introduction to Pointcut Expressions in Spring</a>
+</li><li>
+<a href="http://www.exa.unicen.edu.ar/catedras/deaspect/aspectj.pdf">Programación Orientada a Aspectos</a>
+</li><li>
+<a href="https://www.eclipse.org/aspectj/doc/next/progguide/language-joinPoints.html">Join Points and Pointcuts</a>
+</li><li>
+<a href="https://www.javatpoint.com/spring-aop-aspectj-annotation-example">Spring AOP AspectJ Annotation Example</a>
+</li>
+</ul>
+
+    </div>
+
+<br />
 </div>
+<p><br />
+<a href="">Siguiente</a></p>
 
-  </div>
-
+  </div><a class="u-url" href="/pocs/poc-aop.html" hidden></a>
 </article>
 
       </div>

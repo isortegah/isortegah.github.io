@@ -1,5 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-01T17:15:02-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
-</subtitle><entry><title type="html">Instalación python 3.6 en Ubuntu 19.10 Eoan Ermine</title><link href="http://localhost:4000/blog/posts/python-ubuntu.html" rel="alternate" type="text/html" title="Instalación python 3.6 en Ubuntu 19.10 Eoan Ermine" /><published>2020-02-01T12:59:12-06:00</published><updated>2020-02-01T12:59:12-06:00</updated><id>http://localhost:4000/blog/posts/python36</id><content type="html" xml:base="http://localhost:4000/blog/posts/python-ubuntu.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-27T20:24:38-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
+</subtitle><entry><title type="html">POC aspect-AOP-exercise</title><link href="http://localhost:4000/pocs/poc-aop.html" rel="alternate" type="text/html" title="POC aspect-AOP-exercise" /><published>2020-08-14T18:55:12-05:00</published><updated>2020-08-14T18:55:12-05:00</updated><id>http://localhost:4000/pocs/poc-aop</id><content type="html" xml:base="http://localhost:4000/pocs/poc-aop.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+
+&lt;div class=&quot;post-page&quot;&gt;
+	&lt;div class=&quot;p&quot;&gt;
+&lt;h3&gt;Motivación&lt;/h3&gt;
+&lt;br /&gt;
+Revisando el paradigma de programación &lt;b class=&quot;bold&quot;&gt;&quot;Programación Orientada a Aspectos o AOP&quot;&lt;/b&gt; (aspect-oriented programming) visualizo varias posibilidades de implementación dentro de un framework que permita la ejecución de pruebas automatizadas.
+&lt;br /&gt;&lt;br /&gt;
+Y para ello requiero realizar el ejercicio de ejecución de aspectos de una forma sencilla y así confirmar si es factible su implementación e identificar nuevos casos de implantación.
+&lt;!--more--&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/imgs/post/aj.png&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;
+El punto principal de la AOP es la separación de las funcionalidades dentro de un sistema y debemos considerar:
+&lt;br /&gt;&lt;br /&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;Tenemos las funcionalidades comunes utilizadas a lo largo del sistema.&lt;/li&gt; 
+&lt;li&gt;Las funcionalidades propias de cada modelo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Ejercicios&lt;/h3&gt;
+Al momento de realizar este ejercicio encontre dos configuraciones para implementar los aspectos y se codificaron de la siguiente forma:
+&lt;br /&gt;&lt;br /&gt;
+&lt;h4&gt;Branchs&lt;/h4&gt;
+
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/isortegahlabs/aspect-AOP-exercise/tree/feature/compile-weaving&quot;&gt;Compile-weaving:&lt;/a&gt; Contiene la 
+configuración necesaria para realizar la ejecución de los aspectos utilizando el plugin &lt;b class=&quot;bold&quot;&gt;aspectj-maven-plugin&lt;/b&gt; 
+durante la fase &lt;b class=&quot;bold&quot;&gt;compile&lt;/b&gt;.     
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://github.com/isortegahlabs/aspect-AOP-exercise/tree/feature/loadtime-weaving&quot;&gt;Loadtime-weaving:&lt;/a&gt; En esta rama 
+se presenta la configuración requerida para la ejecución de la funcionalidad de los aspectos durante la ejecución del 
+plugin &lt;b class=&quot;bold&quot;&gt;exec-maven-plugin&lt;/b&gt;.  &lt;/li&gt;
+&lt;/ul&gt;
+En ambos ejercicios se puede generar un jar ejecutable con dependencias.
+&lt;br /&gt;&lt;br /&gt;
+&lt;h4&gt;Documentación de Referencia&lt;/h4&gt;
+
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://folderit.net/es/blog/aspect-oriented-programming-aspectj-es/&quot;&gt;Aspect Oriented Programming – AspectJ&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://livebook.manning.com/book/aspectj-in-action-second-edition/part-1&quot;&gt;Understanding AOP and AspectJ&lt;/a&gt;  
+&lt;/li&gt;&lt;li&gt;
+&lt;a href=&quot;https://www.baeldung.com/spring-aop-pointcut-tutorial&quot;&gt;Introduction to Pointcut Expressions in Spring&lt;/a&gt;
+&lt;/li&gt;&lt;li&gt;
+&lt;a href=&quot;http://www.exa.unicen.edu.ar/catedras/deaspect/aspectj.pdf&quot;&gt;Programación Orientada a Aspectos&lt;/a&gt;
+&lt;/li&gt;&lt;li&gt;
+&lt;a href=&quot;https://www.eclipse.org/aspectj/doc/next/progguide/language-joinPoints.html&quot;&gt;Join Points and Pointcuts&lt;/a&gt;
+&lt;/li&gt;&lt;li&gt;
+&lt;a href=&quot;https://www.javatpoint.com/spring-aop-aspectj-annotation-example&quot;&gt;Spring AOP AspectJ Annotation Example&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Motivación Revisando el paradigma de programación &quot;Programación Orientada a Aspectos o AOP&quot; (aspect-oriented programming) visualizo varias posibilidades de implementación dentro de un framework que permita la ejecución de pruebas automatizadas. Y para ello requiero realizar el ejercicio de ejecución de aspectos de una forma sencilla y así confirmar si es factible su implementación e identificar nuevos casos de implantación.</summary></entry><entry><title type="html">Instalación python 3.6 en Ubuntu 19.10 Eoan Ermine</title><link href="http://localhost:4000/blog/posts/python-ubuntu.html" rel="alternate" type="text/html" title="Instalación python 3.6 en Ubuntu 19.10 Eoan Ermine" /><published>2020-02-01T12:59:12-06:00</published><updated>2020-02-01T12:59:12-06:00</updated><id>http://localhost:4000/blog/posts/python36</id><content type="html" xml:base="http://localhost:4000/blog/posts/python-ubuntu.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;div class=&quot;post-page&quot;&gt;
 &lt;div class=&quot;p&quot;&gt;
