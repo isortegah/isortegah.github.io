@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "POC aspect-AOP-exercise"
+date:   2020-08-14 18:55:12 -0500
+categories: aop
+permalink: /pocs/poc-aop.html
+excerpt_separator: <!--more-->
+---
+<link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
+<div class = "post-page">
+	<div class = "p">
+<h3>Motivación</h3>
+<br>
+Revisando el paradigma de programación <b class="bold">"Programación Orientada a Aspectos o AOP"</b> (aspect-oriented programming) visualizo varias posibilidades de implementación dentro de un framework que permita la ejecución de pruebas automatizadas.
+<br><br>
+Y para ello requiero realizar el ejercicio de ejecución de aspectos de una forma sencilla y así confirmar si es factible su implementación e identificar nuevos casos de implantación.
+<!--more-->
+<br><br>
+<img src="/assets/imgs/post/aj.png">
+<br><br>
+El punto principal de la AOP es la separación de las funcionalidades dentro de un sistema y debemos considerar:
+<br><br>
+<ul class="list">
+<li>Tenemos las funcionalidades comunes utilizadas a lo largo del sistema.</li> 
+<li>Las funcionalidades propias de cada modelo.</li>
+</ul>
+<h3>Ejercicios</h3>
+Al momento de realizar este ejercicio encontre dos configuraciones para implementar los aspectos y se codificaron de la siguiente forma:
+<br><br>
+<h4>Branchs</h4>
+
+<ul class="list">
+<li>
+<a href="https://github.com/isortegahlabs/aspect-AOP-exercise/tree/feature/compile-weaving">Compile-weaving:</a> Contiene la 
+configuración necesaria para realizar la ejecución de los aspectos utilizando el plugin <b class="bold">aspectj-maven-plugin</b> 
+durante la fase <b class="bold">compile</b>.     
+</li>
+<li>
+<a href="https://github.com/isortegahlabs/aspect-AOP-exercise/tree/feature/loadtime-weaving">Loadtime-weaving:</a> En esta rama 
+se presenta la configuración requerida para la ejecución de la funcionalidad de los aspectos durante la ejecución del 
+plugin <b class="bold">exec-maven-plugin</b>.  </li>
+</ul>
+En ambos ejercicios se puede generar un jar ejecutable con dependencias.
+<br><br>
+<h4>Documentación de Referencia</h4>
+
+<ul class="list">
+<li>
+<a href="https://folderit.net/es/blog/aspect-oriented-programming-aspectj-es/">Aspect Oriented Programming – AspectJ</a> 
+</li>
+<li>
+<a href="https://livebook.manning.com/book/aspectj-in-action-second-edition/part-1">Understanding AOP and AspectJ</a>  
+</li><li>
+<a href="https://www.baeldung.com/spring-aop-pointcut-tutorial">Introduction to Pointcut Expressions in Spring</a>
+</li><li>
+<a href="http://www.exa.unicen.edu.ar/catedras/deaspect/aspectj.pdf">Programación Orientada a Aspectos</a>
+</li><li>
+<a href="https://www.eclipse.org/aspectj/doc/next/progguide/language-joinPoints.html">Join Points and Pointcuts</a>
+</li><li>
+<a href="https://www.javatpoint.com/spring-aop-aspectj-annotation-example">Spring AOP AspectJ Annotation Example</a>
+</li>
+</ul>
+
+    </div>
+
+<br>
+</div>
+<br>
+[Siguiente]({{ page.next.url }})
