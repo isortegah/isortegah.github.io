@@ -1,0 +1,36 @@
+---
+layout: page
+title: Blog
+---
+<link rel="stylesheet" href="{{ "/assets/css/blog.css" | relative_url }}">
+<div class="blog">
+<ul>
+  {% for post in paginator.posts %}
+    <li class="liBlog">
+      <a href="{{ post.url }}" class="titlePost">{{ post.title }}</a>  <br><div class="datePost">{{ post.date | date: "%a, %b %d, %y"}}</div>
+      {{ post.excerpt }} 
+      <div class="seccMas">
+      <a href="{{ post.url }}" class="more">Más ...</a>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+</div>
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <span class="previous_active"><a href="{{ paginator.previous_page_path }}" class="previous">
+      Previous
+    </a></span>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <span class="next_active"><a href="{{ paginator.next_page_path }}" class="next">Next</a></span>
+  {% else %}
+    <span class="next">Next</span>
+  {% endif %}
+</div>

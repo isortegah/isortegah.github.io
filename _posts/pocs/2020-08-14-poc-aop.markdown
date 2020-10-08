@@ -5,6 +5,7 @@ date:   2020-08-14 18:55:12 -0500
 categories: aop
 permalink: /pocs/poc-aop.html
 excerpt_separator: <!--more-->
+label: poc
 ---
 <link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
 <div class = "post-page">

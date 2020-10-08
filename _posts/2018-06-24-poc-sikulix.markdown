@@ -5,6 +5,7 @@ date:   2018-06-28 11:59:12 -0500
 categories: sikulix update
 permalink: /pocs/poc-sikulix.html
 excerpt_separator: <!--more-->
+label: poc
 ---
 <link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
 <div class = "post-page">

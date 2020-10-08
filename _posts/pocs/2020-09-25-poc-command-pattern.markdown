@@ -5,6 +5,7 @@ date:   2020-09-25 08:50:12 -0500
 categories: aop
 permalink: /pocs/poc-command-pattern.html
 excerpt_separator: <!--more-->
+label: poc
 ---
 <link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
 <div class = "post-page">

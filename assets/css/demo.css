@@ -1,3 +1,11 @@
 .p{
     text-align: justify;
 }
+
+.seccMas{
+    text-align: right !important;
+}
+
+.demo-page h3{
+    font-size: 18px !important;
+}

@@ -5,6 +5,7 @@ date:   2018-10-20 18:55:12 -0500
 categories: lettuce
 permalink: /pocs/poc-lettuce.html
 excerpt_separator: <!--more-->
+label: poc
 ---
 <link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
 <div class = "post-page">
