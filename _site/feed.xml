@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-08T13:30:12-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
-</subtitle><entry><title type="html">POC Command Pattern</title><link href="http://localhost:4000/pocs/poc-command-pattern.html" rel="alternate" type="text/html" title="POC Command Pattern" /><published>2020-09-25T08:50:12-05:00</published><updated>2020-09-25T08:50:12-05:00</updated><id>http://localhost:4000/pocs/poc-command-pattern</id><content type="html" xml:base="http://localhost:4000/pocs/poc-command-pattern.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-08T18:14:22-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
+</subtitle><entry><title type="html">POC TestCafe</title><link href="http://localhost:4000/pocs/poc-testcafe.html" rel="alternate" type="text/html" title="POC TestCafe" /><published>2020-10-08T13:50:12-05:00</published><updated>2020-10-08T13:50:12-05:00</updated><id>http://localhost:4000/pocs/poc-testcafe</id><content type="html" xml:base="http://localhost:4000/pocs/poc-testcafe.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+
+&lt;div class=&quot;post-page&quot;&gt;
+	&lt;div class=&quot;p&quot;&gt;
+&lt;h3&gt;Motivación&lt;/h3&gt;
+&lt;br /&gt;
+Existen en la actualidad bastantes frameworks que nos facilitan la automatización de pruebas, tanto para Front-End como para API's, Selenium en el área de pruebas para Front-End es el mas conocido y cuenta con mayor información en la red que nos ayuda a resolver dudas. 
+&lt;br /&gt;&lt;br /&gt;
+Soy de la idea de revisar y probar las opciones que tengamos a disposición, para cuando tengamos que analizar y establecer la arquitectura del framework de automatización a implementar, podamos seleccionar aquel que se adapte mas a las necesidades y ofrezca las características optimas para el proyecto donde se utilizará.
+&lt;br /&gt;&lt;br /&gt;
+En la red he visto mencionar bondades sobre el uso de &lt;a href=&quot;https://devexpress.github.io/testcafe/&quot;&gt;TestCafe&lt;/a&gt;, por lo que lo estoy probando para obtener la experiencia y constatar lo mencionado. 
+&lt;!--more--&gt;&lt;br /&gt;&lt;br /&gt;
+La intención es realizar un POC de los diferentes frameworks y poderlos comparar. Comenzando con &lt;a href=&quot;https://devexpress.github.io/testcafe/&quot;&gt;TestCafe&lt;/a&gt;.
+&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/isortegahlabs/poc-testcafe&quot;&gt;Repositorio&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;h4&gt;Conclusión preliminar&lt;/h4&gt;
+
+En cuestión de minutos se logró comenzar a probar el framework, al tener encapsuladas todas las acciones, es facil e intuitiva su implementación, lo que me parecio mas destacable de sus características fue la forma de usar los &quot;selectores&quot;, creo que podría de ser de gran ayuda para las personas que comienzan en el mundo de la automatización de pruebas ya que facilita la localización de los elementos en el DOM y nos ahorra tiempo en buscar otras opciónes con el uso de &quot;Xpath&quot;, adicional cuenta con opciones cuando tenemos el caso de elementos con &quot;ID&quot; dinamicos, que hoy en día es un escenario que se presenta con frecuencia.
+&lt;br /&gt;&lt;br /&gt;
+En cuanto pueda implementar ejemplos adicionales con el framework y revisado otros, actualizare el resultado de la revisión.
+
+
+    &lt;/div&gt;
+
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="poc" /><summary type="html">Motivación Existen en la actualidad bastantes frameworks que nos facilitan la automatización de pruebas, tanto para Front-End como para API's, Selenium en el área de pruebas para Front-End es el mas conocido y cuenta con mayor información en la red que nos ayuda a resolver dudas. Soy de la idea de revisar y probar las opciones que tengamos a disposición, para cuando tengamos que analizar y establecer la arquitectura del framework de automatización a implementar, podamos seleccionar aquel que se adapte mas a las necesidades y ofrezca las características optimas para el proyecto donde se utilizará. En la red he visto mencionar bondades sobre el uso de TestCafe, por lo que lo estoy probando para obtener la experiencia y constatar lo mencionado.</summary></entry><entry><title type="html">POC Command Pattern</title><link href="http://localhost:4000/pocs/poc-command-pattern.html" rel="alternate" type="text/html" title="POC Command Pattern" /><published>2020-09-25T08:50:12-05:00</published><updated>2020-09-25T08:50:12-05:00</updated><id>http://localhost:4000/pocs/poc-command-pattern</id><content type="html" xml:base="http://localhost:4000/pocs/poc-command-pattern.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;div class=&quot;post-page&quot;&gt;
 	&lt;div class=&quot;p&quot;&gt;
@@ -72,7 +101,7 @@ Como resultado en mi busqueda por la red, me encontre diferentes ejemplos, selec
 &lt;br /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;a href=&quot;&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="aop" /><summary type="html">Motivación Los patrones de diseño son soluciones probadas y documentadas a problemas comunes en el desarrollo de software. En la construcción de frameworks de pruebas automatizadas se utilizan para evitar problemas como el alto costo de mantenimiento de los tests, código duplicado, entre otros.</summary></entry><entry><title type="html">POC aspect-AOP-exercise</title><link href="http://localhost:4000/pocs/poc-aop.html" rel="alternate" type="text/html" title="POC aspect-AOP-exercise" /><published>2020-08-14T18:55:12-05:00</published><updated>2020-08-14T18:55:12-05:00</updated><id>http://localhost:4000/pocs/poc-aop</id><content type="html" xml:base="http://localhost:4000/pocs/poc-aop.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+&lt;a href=&quot;/pocs/poc-testcafe.html&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="aop" /><summary type="html">Motivación Los patrones de diseño son soluciones probadas y documentadas a problemas comunes en el desarrollo de software. En la construcción de frameworks de pruebas automatizadas se utilizan para evitar problemas como el alto costo de mantenimiento de los tests, código duplicado, entre otros.</summary></entry><entry><title type="html">POC aspect-AOP-exercise</title><link href="http://localhost:4000/pocs/poc-aop.html" rel="alternate" type="text/html" title="POC aspect-AOP-exercise" /><published>2020-08-14T18:55:12-05:00</published><updated>2020-08-14T18:55:12-05:00</updated><id>http://localhost:4000/pocs/poc-aop</id><content type="html" xml:base="http://localhost:4000/pocs/poc-aop.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;div class=&quot;post-page&quot;&gt;
 	&lt;div class=&quot;p&quot;&gt;

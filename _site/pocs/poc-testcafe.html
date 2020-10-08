@@ -50,22 +50,17 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Demos</h1>
+    <h1 class="post-title p-name" itemprop="name headline">POC TestCafe</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-10-08T13:50:12-05:00" itemprop="datePublished">Oct 8, 2020
+      </time></p>
   </header>
 
-  <div class="post-content">
-    <link rel="stylesheet" href="/assets/css/demo.css" />
-
-<div class="p head">El objetivo de los POC's que estaré publicando, es el ír compartiendo los frameworks que he venido implementado en mis diferentes trabajos, tales implementaciones me han dejado una serie de conocimientos, los cuales busco relacionar para implementar una plataforma de pruebas que me permita diseñar, crear y ejecutar las mismas con muy pocos pasos, reduciendo el tiempo de la preparación de las pruebas y permitiendo que el tiempo sobrante pueda continuar con el aprendizaje de nuevas tecnologías y mejorar la plataforma.
-<br /><br />
-</div>
-
-<h3 id="poc-testcafe"><a href="/pocs/poc-testcafe.html">POC TestCafe</a></h3>
-<div class="demo-page">
-      <link rel="stylesheet" href="/assets/css/post.css" />
+  <div class="post-content e-content" itemprop="articleBody">
+    <link rel="stylesheet" href="/assets/css/post.css" />
 
 <div class="post-page">
 	<div class="p">
@@ -76,94 +71,27 @@ Existen en la actualidad bastantes frameworks que nos facilitan la automatizaci�
 Soy de la idea de revisar y probar las opciones que tengamos a disposición, para cuando tengamos que analizar y establecer la arquitectura del framework de automatización a implementar, podamos seleccionar aquel que se adapte mas a las necesidades y ofrezca las características optimas para el proyecto donde se utilizará.
 <br /><br />
 En la red he visto mencionar bondades sobre el uso de <a href="https://devexpress.github.io/testcafe/">TestCafe</a>, por lo que lo estoy probando para obtener la experiencia y constatar lo mencionado. 
-</div></div>
- 
-      <div class="seccMas"><br />
-      <a href="/pocs/poc-testcafe.html" class="more">Más ...</a>
-      </div>
-      
-      <br />
-</div>
-
-<h3 id="poc-command-pattern"><a href="/pocs/poc-command-pattern.html">POC Command Pattern</a></h3>
-<div class="demo-page">
-      <link rel="stylesheet" href="/assets/css/post.css" />
-
-<div class="post-page">
-	<div class="p">
-<h3>Motivación</h3>
-<br />
-Los patrones de diseño son soluciones probadas y documentadas a problemas comunes en el desarrollo de software. 
-En la construcción de frameworks de pruebas automatizadas se utilizan para evitar problemas como el alto costo de 
-mantenimiento de los tests, código duplicado, entre otros.
-</div></div>
- 
-      <div class="seccMas"><br />
-      <a href="/pocs/poc-command-pattern.html" class="more">Más ...</a>
-      </div>
-      
-      <br />
-</div>
-
-<h3 id="poc-aspect-aop-exercise"><a href="/pocs/poc-aop.html">POC aspect-AOP-exercise</a></h3>
-<div class="demo-page">
-      <link rel="stylesheet" href="/assets/css/post.css" />
-
-<div class="post-page">
-	<div class="p">
-<h3>Motivación</h3>
-<br />
-Revisando el paradigma de programación <b class="bold">"Programación Orientada a Aspectos o AOP"</b> (aspect-oriented programming) visualizo varias posibilidades de implementación dentro de un framework que permita la ejecución de pruebas automatizadas.
+<!--more--><br /><br />
+La intención es realizar un POC de los diferentes frameworks y poderlos comparar. Comenzando con <a href="https://devexpress.github.io/testcafe/">TestCafe</a>.
 <br /><br />
-Y para ello requiero realizar el ejercicio de ejecución de aspectos de una forma sencilla y así confirmar si es factible su implementación e identificar nuevos casos de implantación.
-</div></div>
- 
-      <div class="seccMas"><br />
-      <a href="/pocs/poc-aop.html" class="more">Más ...</a>
-      </div>
-      
-      <br />
-</div>
+<a href="https://github.com/isortegahlabs/poc-testcafe">Repositorio</a>
+<br /><br />
 
-<h3 id="poc-lettuce"><a href="/pocs/poc-lettuce.html">POC Lettuce</a></h3>
-<div class="demo-page">
-      <link rel="stylesheet" href="/assets/css/post.css" />
+<h4>Conclusión preliminar</h4>
 
-<div class="post-page">
-	<div class="p">
-<a href="http://lettuce.it/tutorial/simple.html#tutorial-simple">Lettuce</a> es una herramienta que nos permite implementar BDD (Behavior Driven Development). Puede ejecutar archivos en formato de texto plano que contengan pruebas automáticas descritas en forma funcional para proyectos de Python, tal como lo hace Cucumber en Java o Ruby.
+En cuestión de minutos se logró comenzar a probar el framework, al tener encapsuladas todas las acciones, es facil e intuitiva su implementación, lo que me parecio mas destacable de sus características fue la forma de usar los "selectores", creo que podría de ser de gran ayuda para las personas que comienzan en el mundo de la automatización de pruebas ya que facilita la localización de los elementos en el DOM y nos ahorra tiempo en buscar otras opciónes con el uso de "Xpath", adicional cuenta con opciones cuando tenemos el caso de elementos con "ID" dinamicos, que hoy en día es un escenario que se presenta con frecuencia.
+<br /><br />
+En cuanto pueda implementar ejemplos adicionales con el framework y revisado otros, actualizare el resultado de la revisión.
 
 
     </div>
+
+<br />
 </div>
- 
-      <div class="seccMas"><br />
-      <a href="/pocs/poc-lettuce.html" class="more">Más ...</a>
-      </div>
-      
-      <br />
-</div>
+<p><br />
+<a href="">Siguiente</a></p>
 
-<h3 id="poc-sikulix"><a href="/pocs/poc-sikulix.html">POC Sikulix</a></h3>
-<div class="demo-page">
-      <link rel="stylesheet" href="/assets/css/post.css" />
-
-<div class="post-page">
-	<div class="p">
-<a href="http://sikulix.com">Sikulix</a> es una herramienta que nos permite automatizar la ejecución de acciones (click, tipeado, ejecución de programas, drag and drop) sobre todo lo que vemos en la pantalla de la computadora. Es de gran ayuda cuando no tenemos acceso al DOM de la página Web o si queremos automatizar tareas sobre aplicaciones que no proporcionan otra interfaz que permita la ejecución automática de tareas sobre ellas. En su <a href="http://sikulix.com">Sitio Oficial</a> podrán encontra mas información acerca de sus características.
-    </div>
-</div>
- 
-      <div class="seccMas"><br />
-      <a href="/pocs/poc-sikulix.html" class="more">Más ...</a>
-      </div>
-      
-      <br />
-</div>
-
-
-  </div>
-
+  </div><a class="u-url" href="/pocs/poc-testcafe.html" hidden></a>
 </article>
 
       </div>
