@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "Recursos ISTQB Foundation Level"
+date:   2021-01-21 20:33:12 -0500
+categories: blog
+permalink: /blog/resources-istqbfl.html
+excerpt_separator: <!--more-->
+label: blog
+---
+<link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
+<div class = "post-page">
+	<div class = "p">
+<h3>Motivación</h3>
+<br>
+Es importante más que tener una certificación, homologar los conceptos y procesos que desarrollamos en el área de QA, esto lo comprendí al tomar la certificación de ISTQB Foundation Level, encontré que realizá una recopilación de la información y procesos de distintas metodologías de desarrollo de software, estándares y normas de calidad.
+<br><br>
+Lo que he aprendido a través de algunos años de experiencia, puedo ahora ajustarlo a conceptos que se manejan en la industri TI.
+<!--more--><br><br>
+A continuación les comparto una "cheatsheet" por así decirlo. Me ayudo a repasar los conceptos y recordar como estaban categorizados.
+<br><br>
+<div class="imgPost">
+<img src="/assets/imgs/post/ISTQB Foundation Level.png">
+</div>
+<br><br>
+
+Algo que también me ayudo fueron los distintos mocks de examenes que encontre y que me recomendaron en las redes sociales. Les dejo una lista de los que me funcionarón.
+
+<br><br>
+
+<ul class="list">
+<li>
+<a href="https://www.daypo.com/buscar.php?t=ISTQB">https://www.daypo.com/buscar.php?t=ISTQB</a>      
+</li>
+<li>
+<a href="https://istqb.patshala.com/tests/?fbclid=IwAR2hhB2ru_5CXv9ELCSXiqBstU4cXpuWq07QyxUa4rDI5DRvzX0dp9wYJpY
+">https://istqb.patshala.com/tests/?fbclid=IwAR2hhB2ru_5CXv9ELCSXiqBstU4cXpuWq07QyxUa4rDI5DRvzX0dp9wYJpY
+</a> 
+</li>
+<li>
+<a href="https://www.cooltesters.com/istqb-fl-2-es">https://www.cooltesters.com/istqb-fl-2-es</a> 
+</li>
+<li>
+<a href="https://www.cooltesters.com/istqb-fl-1-es">https://www.cooltesters.com/istqb-fl-1-es</a> 
+</li>
+<li>
+<a href="https://www.cooltesters.com/istqb-fl-3-en">https://www.cooltesters.com/istqb-fl-3-en</a> 
+</li>
+<li>
+<a href="https://www.cooltesters.com/istqb-fl-4-en">https://www.cooltesters.com/istqb-fl-4-en</a> 
+</li>
+<li>
+<a href="https://certificate.isqi.org/mock-exam-answers">https://certificate.isqi.org/mock-exam-answers</a> 
+</li>
+<li>
+<a href="https://www.fulladvanced.com/dashboard">https://www.fulladvanced.com/dashboard</a> 
+</li>
+<li>
+<a href="https://www.testingmexico.mx/simulador-istqb-completo-40-preguntas/">https://www.testingmexico.mx/simulador-istqb-completo-40-preguntas/</a> 
+</li>
+</ul>
+
+Yo les recomiendo que estudien el <a href="https://www.istqb.org/downloads/syllabi/foundation-level-syllabus.html">Syllabus</a> o tomen un curso de preparación, y que usen los mocks hasta que se cansen y posterior hagan los examenes mocks oficiales que comparto a continuación:
+<br><br>
+<ul class="list">
+<li>
+<a href="https://brightest.org/es/recursos/">https://brightest.org/es/recursos/</a>      
+</li>
+<li>
+<a href="http://www.sstqb.es/recursos/descargas.html">http://www.sstqb.es/recursos/descargas.html</a> 
+</li>
+<li>
+<a href="https://www.istqb.org/downloads/category/2-foundation-level-documents.html">https://www.istqb.org/downloads/category/2-foundation-level-documents.html</a> 
+</li>
+</ul>
+
+Para quienes se encuentren adentrandose al área de QA esto debe ser una lectura obligatória y en manera de lo posible la certificación, pero lo importante aquí es el conocimeinto para desempeñarse de una mejor forma.
+<br><br>
+Por último les aconsejo se concentren en comprender bien los conceptos y procesos, ya que las preguntas pueden tener respuestas que parecierán correctas pero debemos elegir la que mejor se adecué a la pregunta, y debemos recordar en varias ocasiones como se encontraba en el Syllabus.
+
+    </div>
+
+<br>
+</div>
+<br>
+[Siguiente]({{ page.next.url }})

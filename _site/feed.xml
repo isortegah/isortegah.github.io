@@ -1,5 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-08T18:14:22-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
-</subtitle><entry><title type="html">POC TestCafe</title><link href="http://localhost:4000/pocs/poc-testcafe.html" rel="alternate" type="text/html" title="POC TestCafe" /><published>2020-10-08T13:50:12-05:00</published><updated>2020-10-08T13:50:12-05:00</updated><id>http://localhost:4000/pocs/poc-testcafe</id><content type="html" xml:base="http://localhost:4000/pocs/poc-testcafe.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-21T21:10:44-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
+</subtitle><entry><title type="html">Recursos ISTQB Foundation Level</title><link href="http://localhost:4000/blog/resources-istqbfl.html" rel="alternate" type="text/html" title="Recursos ISTQB Foundation Level" /><published>2021-01-21T19:33:12-06:00</published><updated>2021-01-21T19:33:12-06:00</updated><id>http://localhost:4000/blog/istqbfl</id><content type="html" xml:base="http://localhost:4000/blog/resources-istqbfl.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+
+&lt;div class=&quot;post-page&quot;&gt;
+	&lt;div class=&quot;p&quot;&gt;
+&lt;h3&gt;Motivación&lt;/h3&gt;
+&lt;br /&gt;
+Es importante más que tener una certificación, homologar los conceptos y procesos que desarrollamos en el área de QA, esto lo comprendí al tomar la certificación de ISTQB Foundation Level, encontré que realizá una recopilación de la información y procesos de distintas metodologías de desarrollo de software, estándares y normas de calidad.
+&lt;br /&gt;&lt;br /&gt;
+Lo que he aprendido a través de algunos años de experiencia, puedo ahora ajustarlo a conceptos que se manejan en la industri TI.
+&lt;!--more--&gt;&lt;br /&gt;&lt;br /&gt;
+A continuación les comparto una &quot;cheatsheet&quot; por así decirlo. Me ayudo a repasar los conceptos y recordar como estaban categorizados.
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imgPost&quot;&gt;
+&lt;img src=&quot;/assets/imgs/post/ISTQB Foundation Level.png&quot; /&gt;
+&lt;/div&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+Algo que también me ayudo fueron los distintos mocks de examenes que encontre y que me recomendaron en las redes sociales. Les dejo una lista de los que me funcionarón.
+
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.daypo.com/buscar.php?t=ISTQB&quot;&gt;https://www.daypo.com/buscar.php?t=ISTQB&lt;/a&gt;      
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://istqb.patshala.com/tests/?fbclid=IwAR2hhB2ru_5CXv9ELCSXiqBstU4cXpuWq07QyxUa4rDI5DRvzX0dp9wYJpY
+&quot;&gt;https://istqb.patshala.com/tests/?fbclid=IwAR2hhB2ru_5CXv9ELCSXiqBstU4cXpuWq07QyxUa4rDI5DRvzX0dp9wYJpY
+&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.cooltesters.com/istqb-fl-2-es&quot;&gt;https://www.cooltesters.com/istqb-fl-2-es&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.cooltesters.com/istqb-fl-1-es&quot;&gt;https://www.cooltesters.com/istqb-fl-1-es&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.cooltesters.com/istqb-fl-3-en&quot;&gt;https://www.cooltesters.com/istqb-fl-3-en&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.cooltesters.com/istqb-fl-4-en&quot;&gt;https://www.cooltesters.com/istqb-fl-4-en&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://certificate.isqi.org/mock-exam-answers&quot;&gt;https://certificate.isqi.org/mock-exam-answers&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.fulladvanced.com/dashboard&quot;&gt;https://www.fulladvanced.com/dashboard&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.testingmexico.mx/simulador-istqb-completo-40-preguntas/&quot;&gt;https://www.testingmexico.mx/simulador-istqb-completo-40-preguntas/&lt;/a&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+
+Yo les recomiendo que estudien el &lt;a href=&quot;https://www.istqb.org/downloads/syllabi/foundation-level-syllabus.html&quot;&gt;Syllabus&lt;/a&gt; o tomen un curso de preparación, y que usen los mocks hasta que se cansen y posterior hagan los examenes mocks oficiales que comparto a continuación:
+&lt;br /&gt;&lt;br /&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://brightest.org/es/recursos/&quot;&gt;https://brightest.org/es/recursos/&lt;/a&gt;      
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.sstqb.es/recursos/descargas.html&quot;&gt;http://www.sstqb.es/recursos/descargas.html&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.istqb.org/downloads/category/2-foundation-level-documents.html&quot;&gt;https://www.istqb.org/downloads/category/2-foundation-level-documents.html&lt;/a&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+
+Para quienes se encuentren adentrandose al área de QA esto debe ser una lectura obligatória y en manera de lo posible la certificación, pero lo importante aquí es el conocimeinto para desempeñarse de una mejor forma.
+&lt;br /&gt;&lt;br /&gt;
+Por último les aconsejo se concentren en comprender bien los conceptos y procesos, ya que las preguntas pueden tener respuestas que parecierán correctas pero debemos elegir la que mejor se adecué a la pregunta, y debemos recordar en varias ocasiones como se encontraba en el Syllabus.
+
+    &lt;/div&gt;
+
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Motivación Es importante más que tener una certificación, homologar los conceptos y procesos que desarrollamos en el área de QA, esto lo comprendí al tomar la certificación de ISTQB Foundation Level, encontré que realizá una recopilación de la información y procesos de distintas metodologías de desarrollo de software, estándares y normas de calidad. Lo que he aprendido a través de algunos años de experiencia, puedo ahora ajustarlo a conceptos que se manejan en la industri TI.</summary></entry><entry><title type="html">POC TestCafe</title><link href="http://localhost:4000/pocs/poc-testcafe.html" rel="alternate" type="text/html" title="POC TestCafe" /><published>2020-10-08T13:50:12-05:00</published><updated>2020-10-08T13:50:12-05:00</updated><id>http://localhost:4000/pocs/poc-testcafe</id><content type="html" xml:base="http://localhost:4000/pocs/poc-testcafe.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;div class=&quot;post-page&quot;&gt;
 	&lt;div class=&quot;p&quot;&gt;
@@ -28,7 +104,7 @@ En cuanto pueda implementar ejemplos adicionales con el framework y revisado otr
 &lt;br /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;a href=&quot;&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="poc" /><summary type="html">Motivación Existen en la actualidad bastantes frameworks que nos facilitan la automatización de pruebas, tanto para Front-End como para API's, Selenium en el área de pruebas para Front-End es el mas conocido y cuenta con mayor información en la red que nos ayuda a resolver dudas. Soy de la idea de revisar y probar las opciones que tengamos a disposición, para cuando tengamos que analizar y establecer la arquitectura del framework de automatización a implementar, podamos seleccionar aquel que se adapte mas a las necesidades y ofrezca las características optimas para el proyecto donde se utilizará. En la red he visto mencionar bondades sobre el uso de TestCafe, por lo que lo estoy probando para obtener la experiencia y constatar lo mencionado.</summary></entry><entry><title type="html">POC Command Pattern</title><link href="http://localhost:4000/pocs/poc-command-pattern.html" rel="alternate" type="text/html" title="POC Command Pattern" /><published>2020-09-25T08:50:12-05:00</published><updated>2020-09-25T08:50:12-05:00</updated><id>http://localhost:4000/pocs/poc-command-pattern</id><content type="html" xml:base="http://localhost:4000/pocs/poc-command-pattern.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+&lt;a href=&quot;/blog/resources-istqbfl.html&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="poc" /><summary type="html">Motivación Existen en la actualidad bastantes frameworks que nos facilitan la automatización de pruebas, tanto para Front-End como para API's, Selenium en el área de pruebas para Front-End es el mas conocido y cuenta con mayor información en la red que nos ayuda a resolver dudas. Soy de la idea de revisar y probar las opciones que tengamos a disposición, para cuando tengamos que analizar y establecer la arquitectura del framework de automatización a implementar, podamos seleccionar aquel que se adapte mas a las necesidades y ofrezca las características optimas para el proyecto donde se utilizará. En la red he visto mencionar bondades sobre el uso de TestCafe, por lo que lo estoy probando para obtener la experiencia y constatar lo mencionado.</summary></entry><entry><title type="html">POC Command Pattern</title><link href="http://localhost:4000/pocs/poc-command-pattern.html" rel="alternate" type="text/html" title="POC Command Pattern" /><published>2020-09-25T08:50:12-05:00</published><updated>2020-09-25T08:50:12-05:00</updated><id>http://localhost:4000/pocs/poc-command-pattern</id><content type="html" xml:base="http://localhost:4000/pocs/poc-command-pattern.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;div class=&quot;post-page&quot;&gt;
 	&lt;div class=&quot;p&quot;&gt;
