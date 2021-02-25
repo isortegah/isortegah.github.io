@@ -1,5 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-23T11:34:50-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
-</subtitle><entry><title type="html">Recursos ISTQB Foundation Level</title><link href="http://localhost:4000/blog/resources-istqbfl.html" rel="alternate" type="text/html" title="Recursos ISTQB Foundation Level" /><published>2021-01-21T19:33:12-06:00</published><updated>2021-01-21T19:33:12-06:00</updated><id>http://localhost:4000/blog/istqbfl</id><content type="html" xml:base="http://localhost:4000/blog/resources-istqbfl.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-25T13:36:11-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ISORTEGAH</title><subtitle>Iván Sebastián Ortega Huixtlacatl, Ingeniero en Computación, apasionado por el Aseguramiento de la Calidad del Software, la Automatización de Pruebas y el Desarrollo de Aplicaciones y Herramientas para el proceso de pruebas.
+</subtitle><entry><title type="html">POC flow CI/CD Github and Jenkins</title><link href="http://localhost:4000/pocs/poc-flow-ci.html" rel="alternate" type="text/html" title="POC flow CI/CD Github and Jenkins" /><published>2021-02-25T08:50:12-06:00</published><updated>2021-02-25T08:50:12-06:00</updated><id>http://localhost:4000/pocs/poc-flow-ci</id><content type="html" xml:base="http://localhost:4000/pocs/poc-flow-ci.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+
+&lt;div class=&quot;post-page&quot;&gt;
+	&lt;div class=&quot;p&quot;&gt;
+&lt;h3&gt;Motivación&lt;/h3&gt;
+&lt;br /&gt;
+Revisando un flujo de ejecución de un componente desde Jenkins que genera un reporte,
+quise revisar como poder emular esta forma de trabajo, para lo cual utilizo este &lt;a href=&quot;https://github.com/isortegahlabs/scala_and_java&quot;&gt;proyecto&lt;/a&gt; como base.
+&lt;!--more--&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;h4&gt; Descripción&lt;/h4&gt;
+En este &lt;b class=&quot;bold&quot;&gt;&lt;i class=&quot;italic&quot;&gt;POC&lt;/i&gt;&lt;/b&gt; se está utilizando las siguientes tecnologías: 
+&lt;br /&gt;&lt;br /&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;
+&lt;b class=&quot;bold&quot;&gt;Maven:&lt;/b&gt; Administración de dependencias y gestión del proyecto.
+&lt;/li&gt;
+&lt;li&gt;&lt;b class=&quot;bold&quot;&gt;Scala and Java:&lt;/b&gt; Lenguajes de programación, busco posteriormente agregar funcionalidad que me
+  permíta probar la interacción entre componentes creados por &lt;i class=&quot;italic&quot;&gt;Scala&lt;/i&gt; y usados en &lt;i class=&quot;italic&quot;&gt;Java&lt;/i&gt; y viceversa.&lt;/li&gt;
+&lt;li&gt;&lt;b class=&quot;bold&quot;&gt;Actions de Github:&lt;/b&gt; Como parte del flujo, en github se almacenara además del código, el jar que resulta 
+del empaquetado para ser consumido como dependencia y se publica el &lt;i class=&quot;italic&quot;&gt;release&lt;/i&gt; que  posteriormente sera descargado desde Jenkins y ejecutado.&lt;/li&gt;
+&lt;/ul&gt;
+  
+El flujo implementado es el siguiente:
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;/assets/imgs/pocs/ScalaAndJava.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;Los cambios al programa se suben al repositorio.&lt;/li&gt;
+&lt;li&gt;Github detecta los archivos de configuración de &lt;i class=&quot;italic&quot;&gt;Actions&lt;/i&gt; y ejecuta el flujo de CI.&lt;/li&gt;
+&lt;li&gt;El flujo configurado para este proyecto, genera el package y lo pública en el servicio de &lt;i class=&quot;italic&quot;&gt;package&lt;/i&gt; de Github.&lt;/li&gt;
+&lt;li&gt;Posterior al paso anterior se toma el &lt;i class=&quot;italic&quot;&gt;jar&lt;/i&gt; generado durante el &lt;i class=&quot;italic&quot;&gt;mvn package&lt;/i&gt; y se adjunta a un release.&lt;/li&gt;
+&lt;li&gt;En Jenkins se cuenta con un Job DSL que tira de otro repo para obtener las configuraciones de los jobs y crearlos de forma automática.&lt;/li&gt;
+&lt;li&gt;Ya con el job creado y configurado, al ejecutarlo esta programado para obtener el último release y ejecutarlo.  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Video demostración&lt;/h4&gt;
+&lt;div class=&quot;imgPost&quot;&gt;
+    &lt;a href=&quot;https://youtu.be/1nz3JywqvlI&quot;&gt;
+    &lt;img src=&quot;https://img.youtube.com/vi/1nz3JywqvlI/0.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/isortegahlabs/scala_and_java&quot;&gt;Repositorio&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+
+
+
+    &lt;/div&gt;
+
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="poc" /><summary type="html">Motivación Revisando un flujo de ejecución de un componente desde Jenkins que genera un reporte, quise revisar como poder emular esta forma de trabajo, para lo cual utilizo este proyecto como base.</summary></entry><entry><title type="html">Recursos ISTQB Foundation Level</title><link href="http://localhost:4000/blog/resources-istqbfl.html" rel="alternate" type="text/html" title="Recursos ISTQB Foundation Level" /><published>2021-01-21T19:33:12-06:00</published><updated>2021-01-21T19:33:12-06:00</updated><id>http://localhost:4000/blog/istqbfl</id><content type="html" xml:base="http://localhost:4000/blog/resources-istqbfl.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;div class=&quot;post-page&quot;&gt;
 	&lt;div class=&quot;p&quot;&gt;
@@ -74,7 +129,7 @@ Por último les aconsejo se concentren en comprender bien los conceptos y proces
 &lt;br /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;a href=&quot;&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Motivación Es importante, más que tener una certificación, homologar los conceptos y procesos que desarrollamos en el área de QA, esto lo comprendí al tomar la certificación de ISTQB Foundation Level, encontré que realiza una recopilación de la información y procesos de distintas metodologías de desarrollo de software, estándares y normas de calidad. Lo que he aprendido a través de algunos años de experiencia, puedo ahora ajustarlo a conceptos que se manejan en la industria TI.</summary></entry><entry><title type="html">POC TestCafe</title><link href="http://localhost:4000/pocs/poc-testcafe.html" rel="alternate" type="text/html" title="POC TestCafe" /><published>2020-10-08T13:50:12-05:00</published><updated>2020-10-08T13:50:12-05:00</updated><id>http://localhost:4000/pocs/poc-testcafe</id><content type="html" xml:base="http://localhost:4000/pocs/poc-testcafe.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
+&lt;a href=&quot;/pocs/poc-flow-ci.html&quot;&gt;Siguiente&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Motivación Es importante, más que tener una certificación, homologar los conceptos y procesos que desarrollamos en el área de QA, esto lo comprendí al tomar la certificación de ISTQB Foundation Level, encontré que realiza una recopilación de la información y procesos de distintas metodologías de desarrollo de software, estándares y normas de calidad. Lo que he aprendido a través de algunos años de experiencia, puedo ahora ajustarlo a conceptos que se manejan en la industria TI.</summary></entry><entry><title type="html">POC TestCafe</title><link href="http://localhost:4000/pocs/poc-testcafe.html" rel="alternate" type="text/html" title="POC TestCafe" /><published>2020-10-08T13:50:12-05:00</published><updated>2020-10-08T13:50:12-05:00</updated><id>http://localhost:4000/pocs/poc-testcafe</id><content type="html" xml:base="http://localhost:4000/pocs/poc-testcafe.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/post.css&quot; /&gt;
 
 &lt;div class=&quot;post-page&quot;&gt;
 	&lt;div class=&quot;p&quot;&gt;

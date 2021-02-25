@@ -53,9 +53,9 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Recursos ISTQB Foundation Level</h1>
+    <h1 class="post-title p-name" itemprop="name headline">POC flow CI/CD Github and Jenkins</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2021-01-21T19:33:12-06:00" itemprop="datePublished">Jan 21, 2021
+      <time class="dt-published" datetime="2021-02-25T08:50:12-06:00" itemprop="datePublished">Feb 25, 2021
       </time></p>
   </header>
 
@@ -66,78 +66,58 @@
 	<div class="p">
 <h3>Motivación</h3>
 <br />
-Es importante, más que tener una certificación, homologar los conceptos y procesos que desarrollamos en el área de QA, esto lo comprendí al tomar la certificación de ISTQB Foundation Level, encontré que realiza una recopilación de la información y procesos de distintas metodologías de desarrollo de software, estándares y normas de calidad.
+Revisando un flujo de ejecución de un componente desde Jenkins que genera un reporte,
+quise revisar como poder emular esta forma de trabajo, para lo cual utilizo este <a href="https://github.com/isortegahlabs/scala_and_java">proyecto</a> como base.
+<!--more-->
 <br /><br />
-Lo que he aprendido a través de algunos años de experiencia, puedo ahora ajustarlo a conceptos que se manejan en la industria TI.
-<!--more--><br /><br />
-A continuación les comparto una "cheatsheet" por así decirlo. Me ayudó a repasar los conceptos y recordar cómo estaban categorizados.
+<h4> Descripción</h4>
+En este <b class="bold"><i class="italic">POC</i></b> se está utilizando las siguientes tecnologías: 
 <br /><br />
+<ul class="list">
+<li>
+<b class="bold">Maven:</b> Administración de dependencias y gestión del proyecto.
+</li>
+<li><b class="bold">Scala and Java:</b> Lenguajes de programación, busco posteriormente agregar funcionalidad que me
+  permíta probar la interacción entre componentes creados por <i class="italic">Scala</i> y usados en <i class="italic">Java</i> y viceversa.</li>
+<li><b class="bold">Actions de Github:</b> Como parte del flujo, en github se almacenara además del código, el jar que resulta 
+del empaquetado para ser consumido como dependencia y se publica el <i class="italic">release</i> que  posteriormente sera descargado desde Jenkins y ejecutado.</li>
+</ul>
+  
+El flujo implementado es el siguiente:
+<br />
+<br />
+<img src="/assets/imgs/pocs/ScalaAndJava.png" />
+<br />
+<br />
+<ul class="list">
+<li>Los cambios al programa se suben al repositorio.</li>
+<li>Github detecta los archivos de configuración de <i class="italic">Actions</i> y ejecuta el flujo de CI.</li>
+<li>El flujo configurado para este proyecto, genera el package y lo pública en el servicio de <i class="italic">package</i> de Github.</li>
+<li>Posterior al paso anterior se toma el <i class="italic">jar</i> generado durante el <i class="italic">mvn package</i> y se adjunta a un release.</li>
+<li>En Jenkins se cuenta con un Job DSL que tira de otro repo para obtener las configuraciones de los jobs y crearlos de forma automática.</li>
+<li>Ya con el job creado y configurado, al ejecutarlo esta programado para obtener el último release y ejecutarlo.  </li>
+</ul>
+
+<h4>Video demostración</h4>
 <div class="imgPost">
-<img src="/assets/imgs/post/ISTQB Foundation Level.png" />
+    <a href="https://youtu.be/1nz3JywqvlI">
+    <img src="https://img.youtube.com/vi/1nz3JywqvlI/0.jpg" /></a>
 </div>
 <br /><br />
-
-Algo que también me ayudo fueron los distintos mocks de exámenes que encontré y que me recomendaron en las redes sociales. Les dejo una lista de los que me funcionaron.
-
+<a href="https://github.com/isortegahlabs/scala_and_java">Repositorio</a>
 <br /><br />
 
-<ul class="list">
-<li>
-<a href="https://www.daypo.com/buscar.php?t=ISTQB">https://www.daypo.com/buscar.php?t=ISTQB</a>      
-</li>
-<li>
-<a href="https://istqb.patshala.com/tests/">https://istqb.patshala.com/tests/
-</a> 
-</li>
-<li>
-<a href="https://www.cooltesters.com/istqb-fl-2-es">https://www.cooltesters.com/istqb-fl-2-es</a> 
-</li>
-<li>
-<a href="https://www.cooltesters.com/istqb-fl-1-es">https://www.cooltesters.com/istqb-fl-1-es</a> 
-</li>
-<li>
-<a href="https://www.cooltesters.com/istqb-fl-3-en">https://www.cooltesters.com/istqb-fl-3-en</a> 
-</li>
-<li>
-<a href="https://www.cooltesters.com/istqb-fl-4-en">https://www.cooltesters.com/istqb-fl-4-en</a> 
-</li>
-<li>
-<a href="https://certificate.isqi.org/mock-exam-answers">https://certificate.isqi.org/mock-exam-answers</a> 
-</li>
-<li>
-<a href="https://www.fulladvanced.com/dashboard">https://www.fulladvanced.com/dashboard</a> 
-</li>
-<li>
-<a href="https://www.testingmexico.mx/simulador-istqb-completo-40-preguntas/">https://www.testingmexico.mx/simulador-istqb-completo-40-preguntas/</a> 
-</li>
-</ul>
 
-Yo les recomiendo que estudien el <a href="https://www.istqb.org/downloads/syllabi/foundation-level-syllabus.html">Syllabus</a> o tomen un curso de preparación, y que usen los mocks hasta que se cansen y posterior hagan los exámenes mocks oficiales que comparto a continuación:
-<br /><br />
-<ul class="list">
-<li>
-<a href="https://brightest.org/es/recursos/">https://brightest.org/es/recursos/</a>      
-</li>
-<li>
-<a href="http://www.sstqb.es/recursos/descargas.html">http://www.sstqb.es/recursos/descargas.html</a> 
-</li>
-<li>
-<a href="https://www.istqb.org/downloads/category/2-foundation-level-documents.html">https://www.istqb.org/downloads/category/2-foundation-level-documents.html</a> 
-</li>
-</ul>
 
-Para quienes se encuentren adentrándose al área de QA esto debe ser una lectura obligatoria y en manera de lo posible la certificación, pero lo importante aquí es el conocimeinto para desempeñarse de una mejor forma.
-<br /><br />
-Por último les aconsejo se concentren en comprender bien los conceptos y procesos, ya que las preguntas pueden tener respuestas que parecieran correctas pero debemos elegir la que mejor se adecúe a la pregunta, y debemos recordar en varias ocasiones como se encontraba en el Syllabus.
 
     </div>
 
 <br />
 </div>
 <p><br />
-<a href="/pocs/poc-flow-ci.html">Siguiente</a></p>
+<a href="">Siguiente</a></p>
 
-  </div><a class="u-url" href="/blog/resources-istqbfl.html" hidden></a>
+  </div><a class="u-url" href="/pocs/poc-flow-ci.html" hidden></a>
 </article>
 
       </div>

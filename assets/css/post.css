@@ -62,4 +62,8 @@ b.bold{
   font-size: 16px;
 }
 
+i.italic{
+  font-style: italic;
+}
+
 
