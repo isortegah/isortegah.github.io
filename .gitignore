@@ -1,5 +1,6 @@
-\.DS_Store
-imgs/\.DS_Store
-.sass-cache
-\.idea/
-\.jekyll-cache
+_site/
+.sass-cache/
+.DS_Store
+.jekyll-cache/
+.idea/
+imgs/.DS_Store
